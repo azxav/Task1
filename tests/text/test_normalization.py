@@ -18,13 +18,40 @@ def test_typography_whitespace_and_case_are_separate():
     assert result.comparison_key == "id-karta olish"
 
 
-@pytest.mark.parametrize("text", ["“ID-karta”", "‘hayotiy vaziyat’", "5′", "2–3", "−5", "my.gov.uz", "YaTT", "ERI", "ma´lumot", "e\u0301", "🙂", "ўқиш", "o''z", "o‘‘z"])
+@pytest.mark.parametrize(
+    "text",
+    [
+        "“ID-karta”",
+        "‘hayotiy vaziyat’",
+        "5′",
+        "2–3",
+        "−5",
+        "my.gov.uz",
+        "YaTT",
+        "ERI",
+        "ma´lumot",
+        "e\u0301",
+        "🙂",
+        "ўқиш",
+        "o''z",
+        "o‘‘z",
+    ],
+)
 def test_preserve_unapproved_distinctions(text):
     expected = "é" if text == "e\u0301" else text
     assert normalize(text).embedding_text == expected
 
 
-@pytest.mark.parametrize("left,right", [("16 yosh", "6 yosh"), ("mumkin", "mumkin emas"), ("bo'ladi", "bo'lmaydi"), ("she'r", "sher"), ("sur'at", "surat")])
+@pytest.mark.parametrize(
+    "left,right",
+    [
+        ("16 yosh", "6 yosh"),
+        ("mumkin", "mumkin emas"),
+        ("bo'ladi", "bo'lmaydi"),
+        ("she'r", "sher"),
+        ("sur'at", "surat"),
+    ],
+)
 def test_meaning_changing_tokens_are_not_erased(left, right):
     a, b = normalize(left), normalize(right)
     assert a.embedding_text == left and b.embedding_text == right
@@ -49,9 +76,22 @@ def test_invisible_characters_flagged_not_silently_joined():
     assert "suspicious_markers" in normalize("o‘‘z").flags
 
 
-@pytest.mark.parametrize("text", ["G‘isht va bog‘", "\ufeff OʻZ  maʼlumot", "‘hayotiy vaziyat’", "ID‑karta", "o‘‘z"])
+@pytest.mark.parametrize(
+    "text", ["G‘isht va bog‘", "\ufeff OʻZ  maʼlumot", "‘hayotiy vaziyat’", "ID‑karta", "o‘‘z"]
+)
 def test_text_and_key_are_idempotent(text):
     first = normalize(text)
     second = normalize(first.embedding_text)
     assert first.embedding_text == second.embedding_text
     assert first.comparison_key == second.comparison_key
+
+
+@pytest.mark.parametrize("text", [" \ufeffabc", "\ufeff\ufeffabc", "\u00a0\ufeff \ufeffabc"])
+def test_leading_bom_whitespace_prefix_is_stable(text):
+    first = normalize(text)
+    assert first.embedding_text == "abc"
+    assert normalize(first.embedding_text).embedding_text == first.embedding_text
+
+
+def test_interior_bom_is_preserved():
+    assert normalize("a\ufeffb").embedding_text == "a\ufeffb"

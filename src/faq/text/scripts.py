@@ -1,10 +1,11 @@
 """Diagnostics only: script flags never rewrite source text."""
 
-from collections import defaultdict
-from dataclasses import dataclass
 import re
-from typing import Sequence, TypedDict
 import unicodedata as ud
+from collections import defaultdict
+from collections.abc import Sequence
+from dataclasses import dataclass
+from typing import TypedDict
 
 from .normalization import normalize
 
@@ -27,8 +28,9 @@ def _scripts(text: str) -> set[str]:
 
 def classify_scripts(text: str) -> ScriptDiagnostics:
     scripts = _scripts(text)
-    mixed = tuple(token for token in re.findall(r"[^\W\d_]+(?:['ʻʼ‘’][^\W\d_]+)*", text)
-                  if len(_scripts(token)) > 1)
+    mixed = tuple(
+        token for token in re.findall(r"[^\W\d_]+(?:['ʻʼ‘’][^\W\d_]+)*", text) if len(_scripts(token)) > 1
+    )
     aggregate = "mixed" if len(scripts) > 1 else next(iter(scripts), "OTHER").lower()
     return ScriptDiagnostics(aggregate, mixed)
 
@@ -49,5 +51,7 @@ def find_collisions(rows: Sequence[QuestionRow]) -> list[Collision]:
     for key, group in grouped.items():
         if len(group) > 1:
             answers = tuple(sorted({row["answer_id"] for row in group}))
-            result.append(Collision(key, tuple(sorted(row["id"] for row in group)), answers, len(answers) > 1))
+            result.append(
+                Collision(key, tuple(sorted(row["id"] for row in group)), answers, len(answers) > 1)
+            )
     return result

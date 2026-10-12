@@ -26,7 +26,7 @@ The single Cyrillic lookalike is in answer 499, not indexed question text. Sever
 
 Apply the following rules in order; repeat application must produce identical text and keys. Applied-rule metadata records only changes on the current invocation, so it need not remain identical on a second invocation.
 
-1. Remove a leading U+FEFF byte-order-mark character, if present. Decode import files as UTF-8 with optional BOM before this step. Do not erase internal U+FEFF.
+1. Remove U+FEFF characters within the complete leading whitespace/BOM prefix. This remains stable when whitespace trimming exposes a BOM, including repeated BOMs. Decode import files as UTF-8 with optional BOM before this step. Do not erase internal U+FEFF after the first non-whitespace/non-BOM character.
 2. Apply Unicode NFC. Do not apply NFKC, strip combining marks, or infer language from visual character similarity.
 3. Map typographic letter markers U+02BB, U+02BC, U+2018, U+2019 to ASCII U+0027 only when they are between Latin letters, or immediately follow ASCII o/O/g/G. The latter covers word-final `bog‘`, `togʻ`, and isolated letter notation. Resolve context from Unicode Latin letters, not `\w`: digits and underscores are not letters. Do not normalize curly quotation marks elsewhere.
 4. Map U+0060 grave/backtick under the same letter context as a documented keyboard-tolerance rule. Do not map accents U+00B4/U+0301, primes U+2032/U+02B9, or other lookalikes in v1. Record the backtick rule separately so its effect can be measured. A single marker surrounded by other marker characters is flagged as suspicious punctuation and left unchanged; do not collapse repeated apostrophes.
@@ -96,4 +96,4 @@ Answer text remains verbatim. No answer-only cleanup is needed for a question-on
 
 ## Completion boundary
 
-This is a researched design, not an implemented or benchmarked normalizer. Corpus observations are measured. Keyboard, Cyrillic, morphology, and threshold benefits remain hypotheses until the real model evaluation runs. The two-day task favors a small proven surface profile and explicit limitations over a large unverified language-processing subsystem.
+Implementation and measured results now appear in src/faq/text and docs/evaluation/uzbek-normalization.md. Version 2 uses corrected development labels and fresh test families after review of v1. The two-day task favors a small tested surface profile and explicit limitations over a large unverified language-processing subsystem.

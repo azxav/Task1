@@ -1,0 +1,145 @@
+{
+  "scope": "Development only: inspected v1 cases with reviewed coverage labels. No fresh test used.",
+  "candidate_policy": "Top-30 question candidates; convex blend of question cosine and full stored answer cosine, same pinned BGE-M3.",
+  "decision": "Keep question-only retrieval: answer support improves top-1 but reduces correct accepted coverage at the precision/no-match target. No production reranking dependency added.",
+  "results": [
+    {
+      "profile": "uz_surface_v1",
+      "answer_weight": 0,
+      "min_score": 0.76,
+      "min_margin": 0.04,
+      "calibration": {
+        "cases": 108,
+        "answerable": 72,
+        "no_match": 36,
+        "accepted": 36,
+        "correct_accepted": 35,
+        "wrong_accepted": 1,
+        "false_accepted": 1,
+        "top1_accuracy": 0.7916666666666666,
+        "recall_at_5": 0.9722222222222222,
+        "accepted_precision": 0.9722222222222222,
+        "answer_coverage": 0.4861111111111111,
+        "correct_answer_coverage": 0.4861111111111111,
+        "false_acceptance": 0.027777777777777776,
+        "false_rejection": 0.5138888888888888
+      },
+      "quality_target_met": true
+    },
+    {
+      "profile": "uz_surface_v1",
+      "answer_weight": 0.25,
+      "min_score": 0.74,
+      "min_margin": 0.05,
+      "calibration": {
+        "cases": 108,
+        "answerable": 72,
+        "no_match": 36,
+        "accepted": 30,
+        "correct_accepted": 29,
+        "wrong_accepted": 1,
+        "false_accepted": 1,
+        "top1_accuracy": 0.9027777777777778,
+        "recall_at_5": 0.9722222222222222,
+        "accepted_precision": 0.9666666666666667,
+        "answer_coverage": 0.4027777777777778,
+        "correct_answer_coverage": 0.4027777777777778,
+        "false_acceptance": 0.027777777777777776,
+        "false_rejection": 0.5972222222222222
+      },
+      "quality_target_met": true
+    },
+    {
+      "profile": "uz_surface_v1",
+      "answer_weight": 0.5,
+      "min_score": 0.74,
+      "min_margin": 0.0,
+      "calibration": {
+        "cases": 108,
+        "answerable": 72,
+        "no_match": 36,
+        "accepted": 24,
+        "correct_accepted": 24,
+        "wrong_accepted": 0,
+        "false_accepted": 0,
+        "top1_accuracy": 0.9027777777777778,
+        "recall_at_5": 0.9722222222222222,
+        "accepted_precision": 1.0,
+        "answer_coverage": 0.3333333333333333,
+        "correct_answer_coverage": 0.3333333333333333,
+        "false_acceptance": 0.0,
+        "false_rejection": 0.6666666666666667
+      },
+      "quality_target_met": true
+    },
+    {
+      "profile": "uz_surface_casefold_v1",
+      "answer_weight": 0,
+      "min_score": 0.77,
+      "min_margin": 0.05,
+      "calibration": {
+        "cases": 108,
+        "answerable": 72,
+        "no_match": 36,
+        "accepted": 34,
+        "correct_accepted": 33,
+        "wrong_accepted": 1,
+        "false_accepted": 1,
+        "top1_accuracy": 0.7777777777777778,
+        "recall_at_5": 0.9444444444444444,
+        "accepted_precision": 0.9705882352941176,
+        "answer_coverage": 0.4583333333333333,
+        "correct_answer_coverage": 0.4583333333333333,
+        "false_acceptance": 0.027777777777777776,
+        "false_rejection": 0.5416666666666667
+      },
+      "quality_target_met": true
+    },
+    {
+      "profile": "uz_surface_casefold_v1",
+      "answer_weight": 0.25,
+      "min_score": 0.76,
+      "min_margin": 0.0,
+      "calibration": {
+        "cases": 108,
+        "answerable": 72,
+        "no_match": 36,
+        "accepted": 31,
+        "correct_accepted": 31,
+        "wrong_accepted": 0,
+        "false_accepted": 0,
+        "top1_accuracy": 0.8888888888888888,
+        "recall_at_5": 0.9722222222222222,
+        "accepted_precision": 1.0,
+        "answer_coverage": 0.4305555555555556,
+        "correct_answer_coverage": 0.4305555555555556,
+        "false_acceptance": 0.0,
+        "false_rejection": 0.5694444444444444
+      },
+      "quality_target_met": true
+    },
+    {
+      "profile": "uz_surface_casefold_v1",
+      "answer_weight": 0.5,
+      "min_score": 0.73,
+      "min_margin": 0.0,
+      "calibration": {
+        "cases": 108,
+        "answerable": 72,
+        "no_match": 36,
+        "accepted": 31,
+        "correct_accepted": 31,
+        "wrong_accepted": 0,
+        "false_accepted": 0,
+        "top1_accuracy": 0.8888888888888888,
+        "recall_at_5": 0.9722222222222222,
+        "accepted_precision": 1.0,
+        "answer_coverage": 0.4305555555555556,
+        "correct_answer_coverage": 0.4305555555555556,
+        "false_acceptance": 0.0,
+        "false_rejection": 0.5694444444444444
+      },
+      "quality_target_met": true
+    }
+  ]
+}

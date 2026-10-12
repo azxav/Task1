@@ -1,0 +1,73 @@
+answer_ids	query
+1	ID-kartamni yangilash uchun arizani qayerga beraman?
+2	Shaxsiy guvohnoma olishga borsam, yonimda qaysi hujjatlar bo'lishi kerak?
+3	ID-karta uchun barcha hujjatlarni berdim, tayyor bo'lishini qancha kutaman?
+4	ID-kartamdagi ma'lumotni xodim noto'g'ri yozgan, qayta chiqarish pullimi?
+5	Bolalar uchun ID-kartaning amal qilish davri nechchi yil?
+6	Chetga safar uchun biometrik pasport arizasini qayerga berishim kerak?
+7	Turmush qurmoqchimiz, nikohni rasmiylashtirishga nimalar tayyorlaymiz?
+22,144	Talabaligimni tasdiqlaydigan ma'lumotnomani internetdan olsam bo'ladimi?
+43	Meros huquqini tasdiqlovchi guvohnomani qaysi notariusdan olishim kerak?
+44	Merosni rasmiylashtirishda vafot etgan odam va merosxo'rlarga oid nimalarni olib boraman?
+45	Boshqa odamga mening nomimdan ish yuritish uchun ishonchnoma tasdiqlatmoqchiman.
+46	Notarius bergan hujjatim yo'qoldi, ikkinchi nusxasini qayerdan so'rayman?
+47	Notarius bajargan ish ustidan shikoyat qilish yo'lini ayting.
+48	Uyga egalik huquqimni davlat reyestriga kiritish uchun qayerga ariza beraman?
+49	Uyimning kadastr ko'chirmasini elektron yuklab olish yo'li kerak.
+50	Uy sotib olayotganda shartnomani kim tasdiqlaydi va keyin nima qilinadi?
+23	Birinchi haydovchilik guvohnomamni olishda qanday imtihonlardan o'taman?
+24	Yangi olgan mashinamni o'z nomimga qayd ettirishga qayerdan murojaat qilaman?
+53	Avtomobil sotish bitimini notarial tuzish tartibini tushuntiring.
+54	Haydovchilik hujjatimni yo'qotdim, qayta olishga ariza qanday beraman?
+55	Avtomobilga davlat raqamini rasmiylashtirish uchun qayerga boraman?
+109	Milliy haydovchilik guvohnomasining amal qilish davomiyligi qancha?
+110	B toifa haydovchilikka hujjat topshirish uchun kamida nechchi yosh bo'lish kerak?
+111	Yengil skuter haydashga qaysi guvohnoma toifasi kerak bo'ladi?
+56	Yakka tadbirkorman, soliqlarni internet orqali qaysi kabinetdan to'layman?
+57	Soliqdan qarzdorligim borligini o'zim qanday tekshirsam bo'ladi?
+58	Korxonaga beriladigan STIR raqami nimani bildiradi?
+59	MChJ ochmoqchiman, davlat ro'yxatiga elektron arizani qayerdan yuboraman?
+60	Biznesni ro'yxatga qo'yish uchun qancha kutish va qancha boj to'lash kerak?
+61	Yangi firma ochishda uning nomini avval band qilib qo'yish shartmi?
+62	Tadbirkorlikni ro'yxatdan o'tkazmasdan boshlashga ruxsat bormi?
+116	Deklaratsiya talab qilinadigan daromadim bor, hisobotni qaysi portalda topshiraman?
+25	Pensiya tayinlatish uchun qaysi tashkilotga borishim va stajimni tasdiqlashim kerak?
+26	Oilamiz daromadi kam, moddiy yordam so'rash uchun qayerga ariza qilamiz?
+66	Nogironlik nafaqasi uchun avval qaysi komissiya xulosasi kerak bo'ladi?
+67	Bola nafaqasini tayinlashga qaysi reyestr asos bo'ladi va arizani qayerga beraman?
+68	Ishim yo'q, ish qidirish va qayta o'qish bo'yicha davlat yordamiga qanday yozilaman?
+123	Ish beruvchi bilan mehnat shartnomasi qog'ozda va elektron tizimda qayd qilinadimi?
+124	Ishdan ketayotganimda foydalanmagan ta'tilim uchun ham pul beriladimi?
+125	Ishlagan yillarimni elektron tizimda qayerdan ko'rsam bo'ladi?
+27	Poliklinikaga biriktirilgan shifokorimni boshqa shifokorga almashtirish uchun nima qilaman?
+28	Abituriyent avval universitet tanlaydimi yoki avval test topshiradimi?
+69	Tibbiy muassasadagi xizmatdan noroziman, shikoyatni kimga aytaman?
+70	Bolamni bog'cha navbatiga elektron ariza bilan qo'ymoqchiman.
+71	Xorijda olgan diplomimni O'zbekistonda tan oldirish uchun ariza berish yo'li kerak.
+136	Shoshilinch tibbiy yordamni qaysi telefon orqali chaqirish mumkin?
+137	Tibbiy spravka olishga qaysi muassasaga murojaat etishim kerak?
+138	Farzandimning emlash taqvimini oilaviy shifokordan bilsam bo'ladimi?
+78	Harbiy hisobga turish uchun yashash joyimda qaysi bo'limga boraman?
+145	Harbiy chaqiruvni va hisobni qaysi idora tashkil qiladi?
+146	O'qishim sabab harbiy xizmatni keyinga surish asoslarini qayerdan bilaman?
+147	Harbiy biletim yo'qolgan, uni qayta rasmiylashtirish uchun qayerga boray?
+148	Harbiy ro'yxat guvohnomasini qaysi tashkilot belgilangan yoshda beradi?
+153	Da'voni sudga internetdan yuborish mumkinmi, qanday talablarga rioya qilaman?
+154	Davlat hisobidan yuridik yordam so'rash uchun qaysi byuroga murojaat qilaman?
+155	Sud qarori kuchga kirdi, undirish bilan qaysi organ shug'ullanadi?
+63	Rasmiy hujjatimga apostil qo'ydirish uchun qanday ariza berish yo'li bor?
+64	Farzandim chet elda tug'ildi, tug'ilganligini O'zbekiston hujjatlarida qayd ettirmoqchiman.
+65	Xorijga qonuniy ishga ketish bo'yicha rasmiy maslahatni qayerdan olaman?
+79	Elektr ta'minotchisi xizmatidan norozi bo'lsam, shikoyatni qayerga bildirishim kerak?
+80	Pochta yuborgan narsam qayerga yetganini trek-kod orqali qanday kuzatsam bo'ladi?
+149	Gaz va suv hisobim uchun telefondan onlayn to'lov qilish yo'li kerak.
+150	Uyga yangi suv hisoblagichi qo'ydirish masalasida kimga murojaat qilaman?
+151	Gaz uzilib qoldi, avariya xizmatini qanday chaqiraman?
+29	Davlat xizmatiga uydan chiqmasdan elektron murojaat qilish uchun qanday platforma bor?
+30	Tumanimizdagi DXM manzili va ish soatlarini qayerdan aniqlayman?
+31	Davlat idorasiga umumiy shikoyatimni virtual qabulxonaga qanday yuborsam bo'ladi?
+72	MyGovga telefonim orqali kirishning qaysi usullari mavjud?
+73	ERI kalitini olish uchun qaysi vakolatli markazga boraman?
+75	MyGovda yuborgan arizam qaysi bosqichga kelganini qayerdan ko'raman?
+181,279	Xizmatlarga kerakli hujjatlar, shartlar va bojlar haqidagi umumiy ma'lumot qayerda jamlangan?
+380,494	Voyaga yetmagan farzandim nomiga bank kartasini qonuniy vakil bilan ochsam bo'ladimi?

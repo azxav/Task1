@@ -1,7 +1,7 @@
 """Conservative, corpus-aligned surface preparation; never a spelling corrector."""
 
-from dataclasses import dataclass
 import unicodedata as ud
+from dataclasses import dataclass
 
 PROFILE = "uz_surface_v1"
 MARKERS = frozenset("'ʻʼ‘’`")
@@ -46,7 +46,12 @@ def normalize(text: str, *, profile: str = PROFILE) -> NormalizationResult:
         raise TextValidationError(f"Unknown normalization profile: {profile}")
     validate_text(text)
     rules, flags = [], set()
-    prepared = text.removeprefix("\ufeff")
+    # Remove BOMs from the entire leading whitespace/BOM prefix; whitespace
+    # trimming must never expose another removable BOM on a second invocation.
+    prefix_end = 0
+    while prefix_end < len(text) and (text[prefix_end].isspace() or text[prefix_end] == "\ufeff"):
+        prefix_end += 1
+    prepared = text[:prefix_end].replace("\ufeff", "") + text[prefix_end:]
     if prepared != text:
         rules.append("leading_bom")
     canonical = ud.normalize("NFC", prepared)
@@ -77,5 +82,10 @@ def normalize(text: str, *, profile: str = PROFILE) -> NormalizationResult:
     if whitespace != prepared:
         rules.append("whitespace")
     validate_text(whitespace)
-    return NormalizationResult(whitespace, ud.normalize("NFC", whitespace.casefold()), profile,
-                               tuple(dict.fromkeys(rules)), tuple(sorted(flags)))
+    return NormalizationResult(
+        whitespace,
+        ud.normalize("NFC", whitespace.casefold()),
+        profile,
+        tuple(dict.fromkeys(rules)),
+        tuple(sorted(flags)),
+    )

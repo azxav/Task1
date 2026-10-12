@@ -1,0 +1,11 @@
+{
+  "version": "reviewed-v1",
+  "review_basis": "Full supplied answers compared for scope and instructions; no legal-fact verification implied.",
+  "groups": [
+    {"answer_ids": [181, 279], "rationale": "Both cover the same general service-information source, conditions/documents/fees and supplemental contact number; wording differs."},
+    {"answer_ids": [380, 494], "rationale": "Both cover a minor's bank card opened at a bank with a legal representative, subject to age/conditions. Parenthetical parent example in 380 does not change the legal-representative requirement."}
+  ],
+  "not_globally_equivalent": [
+    {"answer_ids": [22, 144], "rationale": "Study-certificate scope overlaps, but question 22 also covers work; answer 144 explicitly names the educational institution. Label coverage per query."}
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "scope": "Real FastAPI -> BGE-M3 -> Qdrant -> PostgreSQL, all 54 fresh base/no-match families",
+  "checks": [
+    {
+      "case_id": "t001",
+      "same_decision": true,
+      "score_delta": 1.2060546872305622e-07
+    },
+    {
+      "case_id": "t002",
+      "same_decision": true,
+      "score_delta": 2.774963370200112e-09
+    },
+    {
+      "case_id": "t003",
+      "same_decision": true,
+      "score_delta": 1.6183547968395828e-07
+    },
+    {
+      "case_id": "t004",
+      "same_decision": true,
+      "score_delta": 4.164352418456474e-08
+    },
+    {
+      "case_id": "t005",
+      "same_decision": true,
+      "score_delta": 1.0758056645521208e-07
+    },
+    {
+      "case_id": "t006",
+      "same_decision": true,
+      "score_delta": 2.3813018801277508e-07
+    },
+    {
+      "case_id": "t007",
+      "same_decision": true,
+      "score_delta": 2.0243835496813745e-08
+    },
+    {
+      "case_id": "t008",
+      "same_decision": true,
+      "score_delta": 4.938201902948691e-08
+    },
+    {
+      "case_id": "t009",
+      "same_decision": true,
+      "score_delta": 1.1520904541484356e-07
+    },
+    {
+      "case_id": "t010",
+      "same_decision": true,
+      "score_delta": 3.213493346976293e-07
+    },
+    {
+      "case_id": "t011",
+      "same_decision": true,
+      "score_delta": 1.0137557981959588e-07
+    },
+    {
+      "case_id": "t012",
+      "same_decision": true,
+      "score_delta": 6.137451169507813e-08
+    },
+    {
+      "case_id": "t013",
+      "same_decision": true,
+      "score_delta": 1.9265746775687376e-09
+    },
+    {
+      "case_id": "t014",
+      "same_decision": true,
+      "score_delta": 2.949766541027188e-07
+    },
+    {
+      "case_id": "t015",
+      "same_decision": true,
+      "score_delta": 1.785897827399907e-07
+    },
+    {
+      "case_id": "t016",
+      "same_decision": true,
+      "score_delta": 1.805522156228534e-07
+    },
+    {
+      "case_id": "t017",
+      "same_decision": true,
+      "score_delta": 6.918258665944421e-08
+    },
+    {
+      "case_id": "t018",
+      "same_decision": true,
+      "score_delta": 1.2123962400689692e-07
+    },
+    {
+      "case_id": "t019",
+      "same_decision": true,
+      "score_delta": 1.1464584348530593e-07
+    },
+    {
+      "case_id": "t020",
+      "same_decision": true,
+      "score_delta": 2.136688237452944e-08
+    },
+    {
+      "case_id": "t021",
+      "same_decision": true,
+      "score_delta": 1.7160034171403993e-08
+    },
+    {
+      "case_id": "t022",
+      "same_decision": true,
+      "score_delta": 1.463912964183578e-07
+    },
+    {
+      "case_id": "t023",
+      "same_decision": true,
+      "score_delta": 2.987844848201249e-07
+    },
+    {
+      "case_id": "t024",
+      "same_decision": true,
+      "score_delta": 1.8239288335220039e-07
+    },
+    {
+      "case_id": "t025",
+      "same_decision": true,
+      "score_delta": 1.1485672002375935e-07
+    },
+    {
+      "case_id": "t026",
+      "same_decision": true,
+      "score_delta": 1.2139450078496594e-07
+    },
+    {
+      "case_id": "t027",
+      "same_decision": true,
+      "score_delta": 3.1477355943998475e-08
+    },
+    {
+      "case_id": "t028",
+      "same_decision": true,
+      "score_delta": 1.6160049443048052e-07
+    },
+    {
+      "case_id": "t029",
+      "same_decision": true,
+      "score_delta": 1.3962249756360734e-07
+    },
+    {
+      "case_id": "t030",
+      "same_decision": true,
+      "score_delta": 5.102081301888717e-08
+    },
+    {
+      "case_id": "t031",
+      "same_decision": true,
+      "score_delta": 1.0499725344725874e-07
+    },
+    {
+      "case_id": "t032",
+      "same_decision": true,
+      "score_delta": 3.2705307007052653e-07
+    },
+    {
+      "case_id": "t033",
+      "same_decision": true,
+      "score_delta": 1.1426452639629048e-07
+    },
+    {
+      "case_id": "t034",
+      "same_decision": true,
+      "score_delta": 4.345550541628995e-08
+    },
+    {
+      "case_id": "t035",
+      "same_decision": true,
+      "score_delta": 3.5913391116526583e-07
+    },
+    {
+      "case_id": "t036",
+      "same_decision": true,
+      "score_delta": 9.530181888095512e-08
+    },
+    {
+      "case_id": "tn001",
+      "same_decision": true,
+      "score_delta": 2.737968446409056e-08
+    },
+    {
+      "case_id": "tn002",
+      "same_decision": true,
+      "score_delta": 1.1854980463965603e-07
+    },
+    {
+      "case_id": "tn003",
+      "same_decision": true,
+      "score_delta": 6.060012813779991e-08
+    },
+    {
+      "case_id": "tn004",
+      "same_decision": true,
+      "score_delta": 1.2702941920572641e-08
+    },
+    {
+      "case_id": "tn005",
+      "same_decision": true,
+      "score_delta": 2.4181060787054065e-07
+    },
+    {
+      "case_id": "tn006",
+      "same_decision": true,
+      "score_delta": 1.5251159224405342e-09
+    },
+    {
+      "case_id": "tn007",
+      "same_decision": true,
+      "score_delta": 6.881714087469959e-10
+    },
+    {
+      "case_id": "tn008",
+      "same_decision": true,
+      "score_delta": 6.694488530190057e-08
+    },
+    {
+      "case_id": "tn009",
+      "same_decision": true,
+      "score_delta": 4.7317108153865917e-07
+    },
+    {
+      "case_id": "tn010",
+      "same_decision": true,
+      "score_delta": 1.6861801144241184e-07
+    },
+    {
+      "case_id": "tn011",
+      "same_decision": true,
+      "score_delta": 2.2071838357007323e-08
+    },
+    {
+      "case_id": "tn012",
+      "same_decision": true,
+      "score_delta": 2.2415160838562542e-09
+    },
+    {
+      "case_id": "tn013",
+      "same_decision": true,
+      "score_delta": 1.500831604550612e-07
+    },
+    {
+      "case_id": "tn014",
+      "same_decision": true,
+      "score_delta": 2.394592285570596e-07
+    },
+    {
+      "case_id": "tn015",
+      "same_decision": true,
+      "score_delta": 2.9677352908485943e-07
+    },
+    {
+      "case_id": "tn016",
+      "same_decision": true,
+      "score_delta": 2.1904144287265837e-07
+    },
+    {
+      "case_id": "tn017",
+      "same_decision": true,
+      "score_delta": 3.0139160056563696e-09
+    },
+    {
+      "case_id": "tn018",
+      "same_decision": true,
+      "score_delta": 1.2045989994380335e-07
+    }
+  ],
+  "verbatim_answers": true,
+  "validation_422": true,
+  "typography_identical": true,
+  "database_counts": {
+    "questions": 3048,
+    "answers": 505
+  },
+  "runtime_versions": {
+    "torch": "2.14.1+cpu",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.7.0"
+  },
+  "sequential_http_ms": {
+    "samples": 54,
+    "p50": 338.84709991980344,
+    "p95": 457.1271950379014
+  },
+  "portability_note": "CPU-only locked wheel agrees with pre-switch torch 2.14.1 Windows CPU calibration to <1e-5 on every fresh base/no-match case; selection unchanged."
+}

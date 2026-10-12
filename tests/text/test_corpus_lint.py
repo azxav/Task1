@@ -17,10 +17,12 @@ def test_script_diagnostics_preserve_mixed_tokens():
 
 
 def test_collision_report_keeps_all_source_ids():
-    rows = [{"id": 1, "answer_id": 2, "question": "Oʻqish"},
-            {"id": 2, "answer_id": 3, "question": "O'qish"},
-            {"id": 3, "answer_id": 3, "question": "O'qish joyi"}]
-    collision, = find_collisions(rows)
+    rows = [
+        {"id": 1, "answer_id": 2, "question": "Oʻqish"},
+        {"id": 2, "answer_id": 3, "question": "O'qish"},
+        {"id": 3, "answer_id": 3, "question": "O'qish joyi"},
+    ]
+    (collision,) = find_collisions(rows)
     assert collision.question_ids == (1, 2)
     assert collision.answer_ids == (2, 3)
     assert collision.cross_answer
@@ -35,8 +37,9 @@ def test_actual_corpus_and_keyboard_variants_keep_meaning():
         source = row["question"]
         assert normalize(source).embedding_text == source, row["id"]
         for mark in "ʻʼ‘’`":
-            mutant = "".join(mark if c == "'" and letter_marker_context(source, pos) else c
-                             for pos, c in enumerate(source))
+            mutant = "".join(
+                mark if c == "'" and letter_marker_context(source, pos) else c for pos, c in enumerate(source)
+            )
             assert normalize(mutant).embedding_text == source, (row["id"], mark)
     assert find_collisions([{**r, "id": int(r["id"]), "answer_id": int(r["answer_id"])} for r in rows]) == []
     with (DATA / "answers.csv").open(encoding="utf-8-sig", newline="") as stream:

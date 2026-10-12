@@ -1,0 +1,14 @@
+{
+  "version": "source_coverage_v2",
+  "policy": "v1 inspected test reassigned to calibration. Fresh v2 families frozen before v2 predictions. Query-specific alternatives do not change global equivalence groups.",
+  "reviewed_alternatives": {
+    "4": {"alternative_ids": [382], "rationale": "Both describe correction of official ID data errors and free reissue when issuing office is at fault."},
+    "23": {"alternative_ids": [112], "rationale": "Both explicitly state theoretical and practical driving exams."},
+    "31": {"alternative_ids": [483], "rationale": "Both provide pm.gov.uz for general electronic complaints."},
+    "125": {"alternative_ids": [204], "rationale": "Both provide electronic/my.gov.uz work-history or employment-length information."},
+    "136": {"alternative_ids": [164], "rationale": "Both explicitly provide ambulance number 103."},
+    "145": {"alternative_ids": [78], "rationale": "Both assign military registration to local defence departments."},
+    "72": {"alternative_ids": [488], "rationale": "Both describe mobile MyGov use and ID-card/ERI login methods; query does not demand an exhaustive list."},
+    "56": {"alternative_ids": [223], "rationale": "Question requests which tax cabinet; both name my.soliq.uz, though 223 covers access rather than payment execution."}
+  }
+}

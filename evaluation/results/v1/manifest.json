@@ -1,0 +1,17 @@
+{
+  "profile": "uz_surface_casefold_v1",
+  "min_score": 0.82,
+  "min_margin": 0.0,
+  "top_k": 30,
+  "model_name": "BAAI/bge-m3",
+  "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "registry_digest": "f5bdf3ebe685f40ff217de7d1caf6ea4ebd9614de877a4ca3daf74c1b27992b5",
+  "corpus_hashes": {
+    "questions.csv": "9539ba7c9d64b5f7e9a8ab9d1646431d6ee25a19ecb8768bbf51a7bec2e37e7f",
+    "answers.csv": "72f65dad6b083d8eab55117ad69941dafc7fcb473a365f63392d8e394f851759"
+  },
+  "cases_sha256": "56117596a81394f77f8371e2f8c9ef5dc2fe5235a9fde9b89811449c2f4ded7c",
+  "selection_basis": "Calibration only; >=95% accepted precision and <=5% no-match false acceptance when feasible; maximize correct accepted, prefer conservative surface on ties",
+  "device": "cpu",
+  "max_tokens": 512
+}
