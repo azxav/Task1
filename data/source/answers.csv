@@ -1,0 +1,506 @@
+id,category_id,topic_id,answer,status,created_at,updated_at
+1,1,1,"Ariza my.gov.uz portali orqali yoki Davlat xizmatlari markazi (DXM) hamda IIV migratsiya va fuqarolikni rasmiylashtirish bo'limiga topshiriladi. Belgilangan sanada tashrif buyurib, surat va biometrik ma'lumotlar topshiriladi. Yangi ID-karta hujjatlar to'liq qabul qilingach 1 ish kuni ichida beriladi. Davlat boji BHMning ~89%i (2025-yil holatida ~366 680 so'm); onlayn ariza berishda chegirma bo'lishi mumkin. Onlayn to'lovda kvitansiya majburiy emas.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+2,1,1,"Ariza, davlat boji to'langanligi haqidagi kvitansiya (onlayn to'lovda shart emas) hamda quyidagilardan biri: birinchi marta olinganda — tug'ilganlik guvohnomasi; almashtirishda — eski shaxsni tasdiqlovchi hujjat; ism, familiya, ota ismi yoki tug'ilgan sana o'zgarganda — buni tasdiqlovchi hujjatlar.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+3,1,1,"Hujjatlar to'liq qabul qilingandan so'ng, odatda 1 ish kuni ichida rasmiylashtirilib beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+4,1,1,"Agar xatolik ma'lumotlarni yig'ish punkti aybi bilan yuzaga kelgan bo'lsa, ID-karta bepul qayta rasmiylashtirilib beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+5,1,1,"Bir yoshgacha bo'lgan bolaga — 2 yil, 1 yoshdan 16 yoshgacha — 5 yil muddatga (ota-ona ixtiyoriga ko'ra). Kattalar uchun amaldagi tartibda belgilangan muddatga beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+6,1,1,"Biometrik pasport IIV migratsiya va fuqarolikni rasmiylashtirish bo'limi, Davlat xizmatlari markazi yoki my.gov.uz portali orqali rasmiylashtiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+7,1,2,Ariza ikkala tomon tomonidan my.gov.uz portali orqali (yoki FHDYO bo'limida) topshiriladi. Pasport/ID-karta hamda tibbiy ko'rik natijalari taqdim etiladi. Davlat boji — BHMning 20%i (2025-yil holatida ~82 400 so'm). Ariza topshirilgandan bir oy o'tgach nikoh qayd etiladi (bu muddat asosli hollarda o'zgarishi mumkin).,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+8,1,2,"Nikoh yoshi erkaklar va ayollar uchun 18 yosh. Uzrli sabablarda (masalan, homiladorlik yoki bola tug'ilishi) tuman/shahar hokimi nikoh yoshini ko'pi bilan 1 yilga kamaytirishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+9,1,2,Yashash joyi bo'yicha narkologik va psixonevrologik hisobda emasligi haqidagi ma'lumotnomalar hamda zaxm (dermatovenerolog) tekshiruvi talab etiladi. Ko'rik poliklinika yoki tegishli dispanserlarda o'tkaziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+10,1,2,Bolaning tug'ilganligi haqidagi tibbiy ma'lumotnoma asosida FHDYO bo'limiga yoki my.gov.uz portali orqali murojaat qilinadi. Odatda onaning o'zi murojaat qilishi yetarli. Guvohnoma ko'pincha 1 ish kuni ichida beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+11,1,2,"Tug'ilish belgilangan muddatda qayd etilishi lozim. Muddat o'tkazib yuborilsa, qo'shimcha tushuntirish hujjatlari talab qilinishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+12,1,2,"Er-xotin o'zaro rozi bo'lib, voyaga yetmagan umumiy farzandlari bo'lmasa — FHDYO orqali; aks holda sud orqali amalga oshiriladi. Davlat boji nikoh birinchi yoki takroriy ekaniga qarab BHMning 2 yoki 4 baravari miqdorida undiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+13,1,2,"Er-xotinning yashash joyidagi istalgan FHDYO bo'limiga pasport/ID-karta, nikoh guvohnomasi va davlat boji to'langanligi haqidagi kvitansiya bilan murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+14,1,2,O'lim tibbiy o'lim haqidagi ma'lumotnoma asosida FHDYO bo'limi yoki my.gov.uz portali orqali qayd etiladi va o'lim haqidagi guvohnoma beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+15,1,2,FHDYO organiga ariza va tegishli hujjatlar bilan murojaat qilinadi. 16 yoshga to'lgan shaxs o'zgartirishni mustaqil so'raydi; kichik yoshdagi bola uchun ota-onaning arizasi kerak bo'ladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+16,1,2,"FHDYO tizimi raqamlashtirilgan bo'lib, yo'qolgan guvohnoma o'rniga dublikat (takroriy guvohnoma) FHDYO bo'limi yoki my.gov.uz orqali buyurtma qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+17,1,2,"FHDYOga sudning farzandlikka olish haqidagi qaroridan ko'chirma, bolaning tug'ilganlik guvohnomasi va farzandlikka oluvchi(lar)ning shaxsini tasdiqlovchi hujjatlar taqdim etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+18,1,3,2025-yil 10-iyuldagi O'RQ-1074-son qonunga muvofiq ro'yxatga olishning xabardor qilishga asoslangan yangi tartibi joriy etildi; Toshkent shahri va viloyati bo'yicha alohida propiska qonuni o'z kuchini yo'qotgan. Ariza my.gov.uz portali yoki Davlat xizmatlari markazi orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+19,1,3,Vaqtincha ro'yxatga olish turgan joyi bo'yicha amalga oshiriladi. Ro'yxatga qo'yilmasdan istiqomat qilish muddati 10 ish kunigacha qisqartirilgan.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+20,1,4,"my.gov.uz portalidan 'Sudlanmaganlik haqida ma'lumotnoma' xizmati tanlanadi va so'rov yuboriladi. Ma'lumotnoma QR-kod bilan tasdiqlangan holda, odatda bir necha soat ichida elektron (PDF) shaklda taqdim etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+21,1,4,FHDYO arxividagi yozuvlarning nusxasi (ma'lumotnoma yoki takroriy guvohnoma) my.gov.uz portali orqali onlayn buyurtma qilinadi; tezlashtirilgan tartib ham mavjud.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+22,1,4,O'qish joyidan ma'lumotnoma va boshqa ko'plab ma'lumotnomalar my.gov.uz portali orqali bir necha daqiqada elektron shaklda olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+23,3,7,Ariza my.gov.uz portali yoki Davlat xizmatlari markazi orqali topshiriladi. Tibbiy ko'rikdan o'tish va nazariy hamda amaliy imtihonlarni topshirish talab etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+24,3,7,Yangi yoki egasi o'zgargan transport vositasi my.gov.uz portali yoki Davlat xizmatlari markazi orqali ro'yxatga olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+25,5,11,Pensiya masalalari bo'yicha yashash joyidagi Davlat xizmatlari markazi yoki tegishli ijtimoiy ta'minot organiga murojaat qilinadi. Mehnat stajini tasdiqlovchi hujjatlar talab qilinadi. Aniq shartlarni 1148 raqami yoki my.gov.uz orqali tekshirish tavsiya etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+26,5,11,Moddiy yordam va nafaqalar 'Ijtimoiy himoya yagona reyestri' asosida tayinlanadi. Murojaat mahalla va tegishli ijtimoiy himoya organlari hamda my.gov.uz orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+27,6,12,"my.gov.uz portali orqali poliklinikaga mustaqil ro'yxatdan o'tish, shuningdek poliklinika yoki biriktirilgan shifokorni o'zgartirish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+28,6,13,"Davlat oliy va professional ta'lim muassasalariga qabul 'avval test, so'ng tanlov' tamoyili bo'yicha o'tkaziladi. Ro'yxatdan o'tish va yangiliklar rasmiy manbalar (masalan, DTM/gov.uz) orqali e'lon qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+29,9,19,Ko'pchilik davlat xizmatlari my.gov.uz Yagona interaktiv davlat xizmatlari portali va MyGov mobil ilovasi orqali taqdim etiladi. Tizimga ID-karta yoki elektron raqamli imzo (ERI) orqali kiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+30,9,19,Davlat xizmatlari markazlari har bir tuman va shaharda faoliyat yuritadi. Aniq manzil va ish vaqtini Davlat xizmatlari agentligining 1148 call-markazidan yoki my.gov.uz orqali bilib olish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+31,9,19,"Murojaatni Prezidentning Xalq qabulxonalariga, virtual qabulxona (pm.gov.uz) orqali yoki 1000 raqamiga qo'ng'iroq qilib topshirish mumkin. Idoraviy masalalar bo'yicha tegishli vazirlik/idoraning qabulxonasiga ham murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+32,9,19,"2025-yil 1-avgustdan boshlab BHM 412 000 so'mni tashkil etadi. Ko'pgina davlat bojlari BHMga nisbatan foizda belgilanadi, shuning uchun BHM o'zgarganda to'lov summalari ham o'zgaradi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+33,1,1,"Zudlik bilan IIV migratsiya va fuqarolikni rasmiylashtirish bo'limiga yoki Davlat xizmatlari markaziga murojaat qilib, hujjat yo'qolgani haqida ariza topshiriladi va yangi ID-karta rasmiylashtiriladi. Pasport tizimi qoidalarini buzganlik jarimaga sabab bo'lishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+34,1,1,JSHSHIR — har bir jismoniy shaxsga beriladigan noyob 14 raqamli identifikatsiya raqami. U ID-karta va biometrik pasportda ko'rsatiladi hamda davlat xizmatlaridan foydalanishda ishlatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+35,1,1,"Tug'ilganlik haqidagi guvohnoma va boj to'langanligi haqidagi kvitansiya bilan IIV migratsiya bo'limi, Davlat xizmatlari markazi yoki my.gov.uz orqali murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+36,1,2,"FHDYO bo'limi yoki my.gov.uz portali orqali takroriy (dublikat) nikoh guvohnomasi buyurtma qilinadi. Tizim raqamlashtirilgan bo'lib, arxiv yozuvi asosida hujjat qayta beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+37,1,2,Otalik ota va onaning FHDYOga birgalikda bergan arizasi asosida belgilanadi. Kelishuv bo'lmagan yoki nizoli hollarda otalik sud tartibida aniqlanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+38,1,2,Nikoh O'zbekistonda amal qiladigan qoidalar asosida FHDYO organida qayd etiladi. Chet el fuqarosining hujjatlari belgilangan tartibda tarjima qilinishi va legalizatsiya yoki apostil bilan tasdiqlanishi lozim.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+39,1,2,"Bola ismi qonunchilikka zid bo'lmasligi kerak: kamsituvchi, haqoratli yoki jamiyat axloqiga zid ismlar taqiqlanadi. Xatolik bo'lsa, FHDYO orqali tuzatish kiritish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+40,1,3,Chet elga sayohat uchun xorijga chiqish biometrik pasporti kerak bo'ladi. ID-karta mamlakat ichida shaxsni tasdiqlaydi (ayrim davlatlarga tashriflarda ID-karta yetarli bo'lishi mumkin — yo'nalishni oldindan aniqlang).,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+41,1,3,Doimiy yashovchi xorijiy fuqarolar va fuqaroligi bo'lmagan shaxslar 'Ye-xabar berish' tizimi orqali yashash joyi bo'yicha ro'yxatga olinadi. Ro'yxatga olmasdan joylashtirganlik uchun javobgarlik nazarda tutilgan.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+42,1,3,Doimiy yashash guvohnomasi IIV migratsiya organlariga belgilangan hujjatlar bilan murojaat qilish orqali rasmiylashtiriladi. Aniq shartlar va hujjatlar ro'yxatini my.gov.uz yoki IIV orqali tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+43,2,5,"Meros ochilgan (marhum oxirgi marta yashagan) joydagi notariusga murojaat qilinadi. Guvohnoma, qoida tariqasida, meros ochilgan kundan olti oy o'tganidan keyin beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+44,2,5,"Marhumning o'lim haqidagi guvohnomasi, oxirgi yashash joyi to'g'risidagi ma'lumotnoma, meros mulki marhumga tegishli ekanligini tasdiqlovchi hujjat hamda merosxo'rlarning tug'ilganlik va nikoh guvohnomalari taqdim etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+45,2,5,Ishonchnoma notarial idorada tasdiqlanadi. Notarius qabuliga yozilish va ayrim ma'lumotlarni tekshirish e-notarius.uz (Elektron notarius) portali orqali onlayn amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+46,2,5,O'sha notarial harakat bajarilgan idoraga yozma ariza bilan murojaat qilinadi va yo'qolgan hujjatning dublikati beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+47,2,5,Adliya vazirligining 1008 ishonch telefoniga murojaat qilish yoki notarial harakat ustidan sudga shikoyat berish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+48,2,6,Ariza Kadastr agentligining hududiy organiga yoki my.gov.uz portali orqali beriladi. Xizmat odatda 2 ish kunida bajariladi; ma'lumotlar ko'chmas mulk huquqlarining Yagona davlat reyestriga (UZKAD) kiritiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+49,2,6,"davreestr.uz yoki my.gov.uz orqali obyektning kadastr raqami kiritilib, ko'chirma elektron shaklda yuklab olinadi. Ko'chirmada obyekt manzili, egalari, huquq sanasi hamda taqiq (garov, xatlash) bor-yo'qligi aks etadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+50,2,6,"Shartnoma notarial tartibda tasdiqlanadi, so'ng huquqning yangi egaga o'tishi Kadastr agentligida davlat ro'yxatidan o'tkaziladi. Bitimdan oldin davlat reyestridan ko'chirma olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+51,2,6,Taqiq davlat reyestriga kiritiladi va kadastr ko'chirmasi orqali tekshiriladi. Taqiq uni qo'ygan vakolatli mansabdor shaxs yoki sud qaroriga binoan olib tashlanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+52,2,6,"Kadastr agentligiga ariza topshiriladi; obyekt o'lchanib, kadastr hujjatlari rasmiylashtiriladi. Xizmat my.gov.uz orqali ham buyurtma qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+53,3,7,Shartnoma notarial idorada tuziladi. Avtotransport vositasini o'tkazish shartnomasi uchun davlat boji BHMning 3 baravari (yaqin qarindoshlar o'rtasida imtiyoz mavjud). So'ngra transport DXM yoki my.gov.uz orqali yangi egaga qayd etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+54,3,7,my.gov.uz portali yoki Davlat xizmatlari markazi orqali guvohnomani almashtirish yoki tiklash uchun ariza beriladi; ayrim hollarda tibbiy ko'rik talab qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+55,3,7,Avtoraqam transport vositasini ro'yxatga olish jarayonida Davlat xizmatlari markazi yoki my.gov.uz orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+56,4,8,Soliq turi va stavkalari faoliyat turiga bog'liq. Hisobot topshirish va to'lovlar soliq.uz (my.soliq.uz) shaxsiy kabineti orqali amalga oshiriladi. Aniq stavkalarni Davlat soliq qo'mitasidan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+57,4,8,"soliq.uz portali va shaxsiy kabinet orqali soliq hisobi, hisob-kitoblar va mavjud qarzlar ko'riladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+58,4,8,"STIR — yuridik shaxs va tadbirkorlik subyektiga beriladigan noyob identifikatsiya raqami bo'lib, davlat ro'yxatidan o'tish jarayonida beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+59,4,9,Ro'yxatdan o'tish onlayn birdarcha.uz (fo.birdarcha.uz) portali orqali elektron raqamli imzo bilan yoki Davlat xizmatlari markazida amalga oshiriladi. 'Yagona darcha' prinsipida subyekt bir vaqtning o'zida soliq va statistika organlarida hisobga qo'yiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+60,4,9,Ayrim shakllar 15-30 daqiqada rasmiylashtiriladi. Davlat boji BHMning 1 baravari; onlayn ariza berishda 90% chegirma bilan (ya'ni atigi 10%i) to'lanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+61,4,9,Ha. Ro'yxatdan o'tishdan oldin nomlarning markazlashgan bazasidan qulay firma nomi band qilinadi va tegishli login/parol beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+62,4,9,Yo'q. Ro'yxatdan o'tmasdan tadbirkorlik faoliyati bilan shug'ullanish ma'muriy va jinoiy javobgarlikka sabab bo'ladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+63,8,17,"Rasmiy hujjatlarga apostil hujjat turiga qarab vakolatli organlar (Adliya, Tashqi ishlar, Maktabgacha va maktab ta'limi vazirliklari va boshqalar) tomonidan qo'yiladi. Ariza my.gov.uz orqali berilishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+64,8,17,Tug'ilish O'zbekistonning konsullik muassasasi orqali yoki O'zbekistonga kelgach FHDYOda qayd etiladi. Chet el hujjati legalizatsiya yoki apostil bilan tasdiqlangan va tarjima qilingan bo'lishi lozim.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+65,8,17,"Tashqi mehnat migratsiyasi masalalari bilan shug'ullanuvchi vakolatli agentlik va uning rasmiy platformalari orqali. Vositachilarga emas, qonuniy yo'llarga murojaat qilish tavsiya etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+66,5,11,Nogironlik Tibbiy-mehnat ekspert komissiyasi (TMEK) xulosasi asosida belgilanadi va nafaqa/imtiyozlar ijtimoiy himoya organlari orqali rasmiylashtiriladi. Aniq tartibni 1148 yoki my.gov.uz orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+67,5,11,Bolalik nafaqalari 'Ijtimoiy himoya yagona reyestri' asosida tayinlanadi. Ariza mahalla va ijtimoiy himoya organlari hamda my.gov.uz orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+68,5,11,"Yashash joyidagi bandlikka ko'maklashish markaziga ro'yxatdan o'tish orqali ish qidirish, qayta tayyorlash va tegishli yordamdan foydalanish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+69,6,12,"Avval tibbiyot muassasasi ma'muriyatiga, so'ng Sog'liqni saqlash vazirligining ishonch telefoniga yoki umumiy 1000 murojaatlar liniyasiga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+70,6,13,"Maktabgacha va maktab ta'limiga ariza tegishli elektron tizimlar hamda my.gov.uz orqali beriladi; bola, qoida tariqasida, yashash hududiga qarab biriktiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+71,6,13,Chet el ta'lim hujjatlarini tan olish belgilangan vakolatli organ orqali amalga oshiriladi; ariza my.gov.uz portali orqali topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+72,9,19,"Portalga ID-karta, mobil ID yoki elektron raqamli imzo (ERI) orqali kirish mumkin. Mobil qurilmada MyGov ilovasidan foydalaniladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+73,9,19,ERI vakolatli ro'yxatga olish markazlari orqali rasmiylashtiriladi; tadbirkorlar uchun soliq organlari va tegishli markazlarda beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+74,9,19,"Boj my.gov.uz va to'lov tizimlari (masalan, Click, Payme) orqali onlayn to'lanadi. Onlayn to'lovda, qoida tariqasida, qog'oz kvitansiya talab qilinmaydi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+75,9,19,Ariza holati my.gov.uz shaxsiy kabinetida kuzatiladi; xizmat natijasi kabinetga yoki arizada ko'rsatilgan manzilga yuboriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+76,9,19,Davlat xizmatlari agentligining 1148 raqamiga yoki tegishli idoraning ishonch telefoniga murojaat qilinadi. Umumiy murojaatlar uchun 1000 liniyasidan foydalanish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+77,9,19,my.gov.uz portalidagi 'Kredit tarixini olish' xizmati orqali shaxsiy kredit ma'lumotlari ko'riladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+78,7,14,Yashash joyidagi mudofaa ishlari bo'limiga murojaat qilinadi; harbiy ro'yxatga olish guvohnomasi yoki harbiy bilet shu yerda rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+79,8,15,"Tegishli ta'minlovchi tashkilotning (hududiy gaz, suv, elektr tarmoqlari) call-markaziga yoki mahalliy hokimlikka murojaat qilinadi. Umumiy murojaatlar 1000 liniyasi orqali ham qabul qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+80,8,18,'O'zbekiston pochtasi' (uz.post) tizimi orqali trek-kod bilan jo'natma kuzatiladi. Xalqaro jo'natmalar bojxona rasmiylashtiruvidan o'tadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+81,9,19,"Murojaatlar qonunda belgilangan muddatlarda ko'rib chiqiladi (odatda 15 ish kuni, qo'shimcha o'rganish talab etilsa uzaytirilishi mumkin). Murojaat holatini bergan tizimingiz orqali kuzatishingiz mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+82,1,1,"ID-kartada egasining rasmi, F.I.Sh., tug'ilgan sanasi, JSHSHIR va boshqa shaxsiy ma'lumotlar hamda chipda biometrik ma'lumotlar saqlanadi. Millat haqidagi ma'lumot blankada ko'rsatilmaydi, faqat chipga kiritiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+83,1,1,"Chaqaloqqa ID-karta olish ota-ona ixtiyoriga bog'liq: 1 yoshgacha bo'lgan bolaga 2 yil, 1-16 yoshdagilarga 5 yil muddatga beriladi. Ko'p xizmatlar tug'ilganlik guvohnomasi asosida ham amalga oshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+84,1,1,"Ha. Ism, familiya, ota ismi yoki tug'ilgan sana o'zgarganda ID-karta o'zgarishlarni tasdiqlovchi hujjatlar asosida almashtiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+85,1,1,ID-karta mamlakat ichida shaxsni tasdiqlovchi asosiy hujjat. Xorijga chiqish biometrik pasporti esa chet elga sayohat uchun mo'ljallangan alohida hujjat.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+86,1,1,ID-kartada doimiy manzil chipda saqlanadi va ro'yxatga olish o'zgarganda yangilanadi; ko'p hollarda kartaning o'zini almashtirish shart bo'lmaydi. Aniq tartibni IIV migratsiya bo'limi yoki DXMdan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+87,1,1,Chet elda doimiy yashovchi fuqarolar O'zbekistonning diplomatik vakolatxonalari yoki konsullik muassasalari orqali murojaat qiladi. Ayrim xizmatlarni my.gov.uz orqali ham boshlash mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+88,1,2,"Tibbiy o'lim haqidagi ma'lumotnoma, marhumning shaxsini tasdiqlovchi hujjat va murojaat qiluvchining pasporti/ID-kartasi bilan FHDYOga yoki my.gov.uz orqali murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+89,1,2,"Dalolatnoma yozuviga o'zgartirish, tuzatish va qo'shimchalar kiritish uchun tegishli FHDYO organiga ariza beriladi; ariza belgilangan tartibda ko'rib chiqiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+90,1,2,"Ariza topshirilgach nikoh, odatda, bir oydan keyin qayd etiladi. Asosli hollarda bu muddat qisqartirilishi yoki (masalan, FHDYO tashabbusi bilan) uzaytirilishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+91,1,2,Ajrashish sud tartibida yoki O'zbekistonda amaldagi qoidalarga muvofiq amalga oshiriladi. Chet eldagi tomon konsullik muassasasi orqali ishtirok etishi yoki vakil tayinlashi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+92,1,2,"Ha, bola familiyasi ota-ona familiyasi yoki milliy an'analarga ko'ra bobo ismi asosida berilishi mumkin. Bu tug'ilishni qayd etishda ko'rsatiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+93,1,2,Umumiy mol-mulk kelishuv asosida (notarial tasdiqlangan bitim bilan) yoki nizo bo'lsa sud orqali bo'linadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+94,1,3,"Taqiq (masalan, aliment yoki qarz yuzasidan) majburiy ijro organlari orqali qo'yiladi. Undiruvchining roziligi yoki qarz to'langanligini tasdiqlab, ijro organiga murojaat qilib taqiq bekor qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+95,1,3,"Fuqarolik 'Fuqarolik to'g'risida'gi qonunda belgilangan shartlar (yashash muddati, til va boshqalar) asosida beriladi. Ariza IIV migratsiya organlariga topshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+96,1,3,Fuqarolikdan chiqish belgilangan tartibda ariza va hujjatlar asosida ko'rib chiqiladi. Murojaat IIV migratsiya organlari yoki konsullik muassasalari orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+97,1,3,Ba'zi hollarda notarial tasdiqlangan rozilik talab qilinishi mumkin. Aniq talablarni safar oldidan migratsiya organi yoki konsullikdan tekshirish tavsiya etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+98,1,3,Chet elda yashovchi fuqarolar O'zbekistonning tegishli konsullik muassasasida hisobga qo'yiladi; bu bir qator konsullik xizmatlaridan foydalanishni osonlashtiradi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+99,2,5,Vasiyatnoma notarial idorada tuziladi va tasdiqlanadi. Vasiyat qiluvchi shaxsi tasdiqlovchi hujjat bilan shaxsan ishtirok etadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+100,2,5,"Hadya shartnomasi notarial tasdiqlanadi, so'ng huquqning o'tishi Kadastr agentligida davlat ro'yxatidan o'tkaziladi. Yaqin qarindoshlar o'rtasida boj imtiyozlari mavjud.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+101,2,5,Garov shartnomasi notarial idorada rasmiylashtiriladi va ko'chmas mulk garovi davlat ro'yxatidan o'tkaziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+102,2,5,"Merosxo'r o'z ulushidan voz kechsa, buni notarial tartibda tasdiqlangan ariza bilan rasmiylashtiradi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+103,2,5,"Notarius hujjat nusxalarining haqiqiyligini, imzolarni, shuningdek belgilangan tartibda tarjimon imzosini tasdiqlaydi. Aniq xizmatni notarial idoradan tekshiring.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+104,2,6,Yer uchastkasini xususiylashtirish belgilangan tartibda ariza asosida amalga oshiriladi; xizmatga my.gov.uz orqali murojaat qilish mumkin. Shartlarni Kadastr agentligidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+105,2,6,Obyektni qayta ixtisoslashtirish yoki rekonstruksiya qilish uchun ruxsatnoma Kadastr agentligi va tegishli organlar orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+106,2,6,Ko'chmas mulk ma'lumotlarini tahrirlash uchun Kadastr agentligiga yoki my.gov.uz orqali ariza beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+107,2,6,Bino va inshootlar ijara shartnomasi belgilangan hollarda davlat ro'yxatidan o'tkaziladi. Aniq talabni Kadastr agentligidan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+108,2,6,Qurilish-montaj ishlari tugallangan obyektdan foydalanish uchun ruxsatnoma olinadi va kadastr hujjatlari rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+109,3,7,"Milliy haydovchilik guvohnomasi, qoida tariqasida, 10 yil muddatga beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+110,3,7,B toifasi uchun kamida 18 yosh talab qilinadi. Mototsikl (A) va moped/skuter (A1) uchun 16 yoshdan olish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+111,3,7,"Moped va yengil skuterlar uchun A1 toifasi joriy etildi (2026-yildan). Boshqa toifadagi (A, B, C, D) guvohnomaga ega bo'lsangiz, qo'shimcha o'qish talab qilinmasligi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+112,3,7,"Ariza Yagona imtihon markaziga (onlayn yoki oflayn) topshiriladi; tibbiy ko'rikdan o'tib, nazariy va amaliy imtihonlar topshiriladi. Muvaffaqiyatli natija sertifikati 1 yil davomida guvohnoma olish uchun asos bo'ladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+113,3,7,"Odatda 20 ta savoldan 18 tasiga to'g'ri javob berish talab qilinadi (A1 toifasi uchun 16 tasi). Imtihonni topshira olmasangiz, belgilangan muddatdan keyin qayta topshirasiz.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+114,3,7,Chet el guvohnomasini milliy guvohnomaga almashtirish belgilangan tartibda amalga oshiriladi; ayrim hollarda imtihon talab qilinishi mumkin. Tartibni YHXX/DXMdan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+115,3,7,Jarimalar tegishli rasmiy platformalar va to'lov tizimlari orqali tekshiriladi va onlayn to'lanadi. Muddatida to'lashda ayrim hollarda chegirma bo'lishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+116,4,8,Deklaratsiya talab qilinadigan daromadlar bo'yicha hisobot soliq.uz shaxsiy kabineti orqali belgilangan muddatlarda topshiriladi. Aniq holatni Davlat soliq qo'mitasidan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+117,4,8,Mol-mulk va yer solig'i obyekt qiymati va belgilangan stavkalar asosida hisoblanadi; to'lov xabarnomasi keladi va soliq.uz orqali to'lanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+118,4,8,"Soliq imtiyozlari qonunchilikda belgilangan toifalarga (masalan, ayrim ijtimoiy guruhlar yoki faoliyat turlari) beriladi. Aniq imtiyozni soliq organidan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+119,4,8,"Murojaat soliq.uz portali, Davlat soliq qo'mitasining ishonch telefoni yoki tegishli hududiy soliq organi orqali topshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+120,4,9,YaTT sifatida ro'yxatdan o'tish onlayn birdarcha.uz portali yoki Davlat xizmatlari markazi orqali amalga oshiriladi va soliq organida hisobga qo'yiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+121,4,9,"Litsenziya va ruxsatnomalar faoliyat turiga qarab vakolatli organlar tomonidan, ko'pincha 'yagona darcha' va onlayn tartibda beriladi. Ro'yxatni my.gov.uz orqali aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+122,4,9,Faoliyatni tugatish belgilangan tartibda ariza va soliq/majburiyatlar bo'yicha hisob-kitob asosida amalga oshiriladi; murojaat ro'yxatga oluvchi organ orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+123,5,10,Mehnat shartnomasi yozma shaklda tuziladi va belgilangan yagona milliy mehnat tizimida elektron ro'yxatga olinadi. Bu xodimning huquqlarini himoya qiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+124,5,10,"Ishdan bo'shatilganda ishlagan davr uchun ish haqi, foydalanilmagan ta'til kompensatsiyasi va qonunda ko'zda tutilgan hollarda nafaqa to'lanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+125,5,10,Mehnat faoliyati ma'lumotlari elektron yagona tizimda yuritiladi. Ish staji va faoliyat ma'lumotlarini tegishli platforma yoki my.gov.uz orqali ko'rish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+126,5,10,"Avval ish beruvchiga yozma murojaat, natija bo'lmasa Mehnat inspeksiyasi (mehnat organlari) yoki sudga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+127,5,10,"Mehnat nizolari ish beruvchi bilan kelishuv, mehnat nizolari komissiyasi yoki sud orqali hal etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+128,5,11,"Yoshga doir to'liq pensiya erkaklarga 60 yoshda kamida 25 yil staj bilan, ayollarga 55 yoshda kamida 20 yil staj bilan tayinlanadi. Kamida 7 yil staj bo'lsa, to'liqsiz pensiya beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+129,5,11,"Ha. 2025-yil 1-martdan boshlab yoshga doir pensiyalar fuqaroning alohida arizasisiz, idoralararo ma'lumot almashinuvi asosida proaktiv tarzda tayinlanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+130,5,11,"7 yillik staj ham bo'lmasa, fuqaroga yoshga doir nafaqa tayinlanadi (erkaklarga 65, ayollarga 60 yoshda). Bunday nafaqa alohida shartlarda belgilanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+131,5,11,Nogironlik Tibbiy-mehnat ekspert komissiyasi (TMEK) xulosasi asosida belgilanadi va pensiya belgilangan guruhga muvofiq tayinlanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+132,5,11,"Vafot etgan shaxsning qaramog'ida bo'lgan mehnatga qobiliyatsiz oila a'zolari (masalan, voyaga yetmagan bolalar) boquvchisini yo'qotganlik pensiyasini olish huquqiga ega bo'ladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+133,5,11,Pensiya ko'pchilik oluvchilar uchun bank kartasiga o'tkaziladi; oluvchi tanloviga ko'ra boshqa usullar ham mavjud bo'lishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+134,5,11,"Ha, ayrim hollarda (masalan, ish o'rni qisqarishi tufayli ishsiz deb topilgan va zarur stajga ega shaxslar) belgilangan muddatdan ikki yil oldin pensiyaga chiqish mumkin. Buning uchun bandlikka ko'maklashish markaziga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+135,5,11,Nafaqa va moddiy yordam 'Ijtimoiy himoya yagona reyestri' asosida tayinlanadi; murojaat mahalla va ijtimoiy himoya organlari hamda my.gov.uz orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+136,6,12,Birlamchi tibbiy yordam yashash joyidagi poliklinikada ko'rsatiladi; shoshilinch hollarda tez tibbiy yordam 103 raqami orqali chaqiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+137,6,12,Tibbiy ma'lumotnomalar yashash joyidagi poliklinika yoki tegishli tibbiyot muassasasida beriladi. Ayrim ma'lumotnomalar elektron shaklda rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+138,6,12,Emlash taqvimi biriktirilgan poliklinika yoki oilaviy shifokor orqali beriladi; ma'lumotni tibbiy muassasadan olishingiz mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+139,6,12,Imtiyozli va retsept bo'yicha dorilar biriktirilgan shifokor tomonidan belgilanadi. Aniq imtiyoz shartlarini poliklinika orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+140,6,13,"Birinchi sinfga qabul belgilangan muddatlarda elektron tizim va my.gov.uz orqali amalga oshiriladi; bola, qoida tariqasida, yashash hududidagi maktabga biriktiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+141,6,13,"Maktabni o'zgartirish qabul qiluvchi maktabda bo'sh o'rin bo'lishi asosida, tegishli hujjatlar bilan amalga oshiriladi. Ariza elektron tizim orqali beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+142,6,13,"Ta'lim hujjati yo'qolsa, uni bergan o'quv muassasasiga yoki tegishli organga murojaat qilib dublikat olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+143,6,13,"Yotoqxona ta'lim muassasasi tomonidan belgilangan tartibda, ehtiyojmandlik va bo'sh o'rinlar asosida beriladi. Ariza o'quv muassasasiga topshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+144,6,13,O'qish joyidan ma'lumotnoma my.gov.uz portali orqali yoki o'quv muassasasidan elektron shaklda olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+145,7,14,Chaqiruv belgilangan yoshdagi erkak fuqarolar uchun mudofaa ishlari bo'limlari orqali amalga oshiriladi. Harbiy ro'yxatga olish ham shu organlar orqali yuritiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+146,7,14,"Ta'lim, sog'liq yoki oilaviy holat kabi qonunda belgilangan asoslarga ko'ra kechiktirish berilishi mumkin. Aniq asoslarni mudofaa ishlari bo'limidan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+147,7,14,Yo'qolgan harbiy hujjat yashash joyidagi mudofaa ishlari bo'limiga murojaat qilib tiklanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+148,7,14,Harbiy ro'yxatga olish guvohnomasi belgilangan yoshda mudofaa ishlari bo'limi tomonidan rasmiylashtiriladi va bir qator xizmatlarda talab qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+149,8,15,"Gaz, suv, elektr va boshqa kommunal to'lovlar to'lov ilovalari (masalan, Click, Payme) hamda ta'minlovchi tashkilotlarning rasmiy ilovalari orqali onlayn to'lanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+150,8,15,"Hisoblagich o'rnatish yoki almashtirish uchun tegishli ta'minlovchi tashkilotga (gaz, suv, elektr) murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+151,8,15,Avariya va uzilishlarda tegishli ta'minlovchi tashkilotning avariya/call-xizmatiga qo'ng'iroq qilinadi; gaz avariyasi bo'yicha 104 raqamiga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+152,8,15,Umumiy mulk va uyni boshqarish masalalari uy-joy mulkdorlari shirkati yoki boshqaruvchi tashkilot hamda mahalliy hokimlik orqali hal etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+153,7,16,Da'vo arizasi tegishli sudga yozma yoki sud organlarining elektron platformasi (e-sud) orqali topshiriladi. Ariza va davlat boji talablariga rioya qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+154,7,16,Qonunda belgilangan toifalarga davlat tomonidan kafolatlangan yuridik yordam beriladi. Murojaat tegishli yuridik yordam byurosi orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+155,7,16,Kuchga kirgan sud qarorlari majburiy ijro (davlat ijrochilari) organlari tomonidan ijro etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+156,7,16,Jarimaga yuqori turuvchi organ yoki sudga belgilangan muddatda shikoyat berish orqali e'tiroz bildiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+157,7,16,"Avval sotuvchi/xizmat ko'rsatuvchiga yozma da'vo, natija bo'lmasa iste'molchilar huquqlarini himoya qiluvchi organlar yoki sudga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+158,9,19,"Mahalla ijtimoiy yordam, ma'lumotnomalar, oilaviy va maishiy masalalar hamda ayrim davlat xizmatlariga ko'maklashishda muhim vazifa bajaradi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+159,9,19,Bunday ma'lumotnomalar mahalla yoki tegishli organlar hamda ko'p hollarda my.gov.uz portali orqali olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+160,9,19,"Bir darcha tamoyili — fuqaro yoki tadbirkor bir joyga murojaat qilganda, idoralar o'zaro ma'lumot almashib, xizmatni bir vaqtning o'zida rasmiylashtirishini bildiradi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+161,9,19,Xizmat ko'rsatilmagan yoki ortiqcha to'langan hollarda boj belgilangan tartibda qaytarilishi mumkin. Ariza tegishli organga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+162,9,19,"Shaxsiy ma'lumotlaringiz noqonuniy ishlatilsa, tegishli vakolatli organ va huquqni muhofaza organlariga murojaat qilishingiz mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+163,9,19,Bunday holatlar korrupsiyaga qarshi kurashuvchi vakolatli organlar va huquqni muhofaza organlarining ishonch telefonlariga xabar qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+164,9,19,"Yagona qutqaruv xizmati — 112. Shuningdek: yong'in va qutqaruv — 101, ichki ishlar (militsiya) — 102, tez tibbiy yordam — 103, gaz avariyasi — 104.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+165,9,19,Yo'qolish haqida yashash joyidagi ichki ishlar organiga ariza beriladi; hujjatlar esa tegishli beruvchi organ orqali qayta rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+166,9,19,"Odatda avval tug'ilganlik guvohnomasi (FHDYO), so'ng zarur bo'lsa ID-karta hamda yashash joyi bo'yicha ro'yxatga olish rasmiylashtiriladi. Bir qator xizmatlar my.gov.uz orqali bog'lanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+167,9,19,"Rad etish yozma va asoslantirilgan bo'lishi lozim. Rad etishga yuqori turuvchi organga yoki sudga shikoyat berish, shuningdek 1148 orqali murojaat qilish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+168,7,16,Aliment kelishuv (notarial bitim) yoki sud qarori asosida belgilanadi va majburiy ijro organlari orqali undiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+169,7,16,"Ha, qarzdorga xorijga chiqish taqiqi qo'yilishi mumkin. Qarz to'langach yoki undiruvchining roziligi bilan taqiq ijro organi orqali bekor qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+170,1,2,Vasiylik va homiylik vasiylik va homiylik organlari hamda mahalliy hokimlik qarori asosida belgilanadi. Murojaat tegishli organga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+171,7,16,Qarz masalalari kreditor bilan kelishuv yoki sud tartibida hal etiladi. Aniq huquqlaringizni yuridik yordam byurosidan aniqlashingiz mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+172,9,19,"Zudlik bilan bankning call-markaziga qo'ng'iroq qilib kartani bloklash, so'ng ichki ishlar organiga ariza berish tavsiya etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+173,9,19,"Kiber firibgarlik holatlari ichki ishlar organlari va tegishli kiberxavfsizlik xizmatlariga xabar qilinadi. Dalillarni (skrinshot, chek) saqlab qo'ying.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+174,1,2,"Ha, 16 yoshdan katta shaxs ism, familiya yoki ota ismini o'zgartirish uchun FHDYOga mustaqil ariza berishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+175,1,2,Takroriy yoki xato yozuvlar FHDYO organiga ariza berish orqali tuzatiladi yoki bekor qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+176,2,6,"Bitimdan oldin davlat reyestridan ko'chirma olinadi: obyekt egasi, huquq va taqiq (garov, xatlash) bor-yo'qligi tekshiriladi. Shartnoma notarial tasdiqlanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+177,3,7,Transport vositasini hisobdan chiqarish Davlat xizmatlari markazi yoki my.gov.uz orqali ariza asosida amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+178,4,8,Yuridik shaxs va tadbirkorlar ro'yxatdan o'tish jarayonida avtomatik soliq hisobiga qo'yiladi va STIR beriladi. Jismoniy shaxslarga JSHSHIR asosida hisob yuritiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+179,5,10,"Bandlikka ko'maklashish markazlari ish qidirish, kasbga o'qitish/qayta tayyorlash va ishsizlarga yordam berish xizmatlarini ko'rsatadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+180,5,10,Chet el fuqarolarining O'zbekistonda ishlashi belgilangan tartibda ruxsatnoma yoki tasdiqnoma asosida amalga oshiriladi. Tartibni tegishli migratsiya/mehnat organidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+181,9,19,"Barcha davlat xizmatlari, ularning shartlari, hujjatlar ro'yxati va bojlari my.gov.uz portalida keltirilgan. Qo'shimcha savollar bo'yicha 1148 raqamiga qo'ng'iroq qilish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+182,1,1,Fotosurat guvohnoma amal muddati tugaganda yoki tashqi ko'rinish sezilarli o'zgarganda yangilanadi. ID-karta almashtirilganda yangi surat va biometrik ma'lumotlar olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+183,1,1,"Chipdagi ma'lumotlar davlat xizmatlari va ayrim tashkilotlardagi maxsus o'qish qurilmalari (rider) orqali o'qiladi. Fuqaroning millati blankada emas, faqat chipda saqlanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+184,1,1,"Buzilgan ID-karta migratsiya bo'limi yoki Davlat xizmatlari markazi orqali almashtiriladi. Nuqson karta punkti aybi bilan bo'lsa, bepul almashtirilishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+185,1,1,"Surat odatda ma'lumotlarni yig'ish punktida joyida olinadi, shu bois oldindan foto keltirish shart emas. Talablarni migratsiya bo'limi yoki DXMdan tekshiring.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+186,1,1,ID-kartani o'z ixtiyoriga ko'ra xohlagan migratsiya bo'limi yoki Davlat xizmatlari markazida almashtirish mumkin — doimiy manzil bo'yicha bo'lishi shart emas.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+187,1,1,"Hujjatlarda ism-familiya belgilangan transliteratsiya qoidalari asosida yoziladi. Xatolik bo'lsa, uni tuzatish uchun tegishli organga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+188,1,2,"Ha, er-xotin mol-mulk munosabatlarini tartibga soluvchi nikoh shartnomasini notarial tartibda tuzishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+189,1,2,"Faqat diniy marosim davlat ro'yxatidan o'tkazilmasa, huquqiy oqibatlar (mol-mulk, meros, aliment kabi) uchun asos bo'lmaydi. Nikoh FHDYOda qayd etilishi lozim.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+190,1,2,Har bir bolaga alohida tug'ilganlik yozuvi va guvohnomasi rasmiylashtiriladi. Murojaat tibbiy ma'lumotnoma asosida FHDYO yoki my.gov.uz orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+191,1,2,Bunday bola vasiylik va homiylik organi hamda tegishli idoralar ishtirokida belgilangan tartibda ro'yxatga olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+192,1,2,Guvohnomaga apostil vakolatli organ tomonidan qo'yiladi va zarur bo'lsa notarial tarjima qilinadi. Ariza my.gov.uz orqali berilishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+193,1,2,Ko'p xizmatlar bo'yicha ariza va navbat my.gov.uz portali orqali onlayn rasmiylashtiriladi; ayrim hollarda FHDYO bo'limiga to'g'ridan-to'g'ri murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+194,1,2,Shaxsni bedarak yo'qolgan yoki vafot etgan deb e'lon qilish sud tartibida amalga oshiriladi; sud qarori asosida FHDYOda yozuv rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+195,1,3,Muddat tugashidan oldin ro'yxatni uzaytirish yoki yangi manzilda qayta ro'yxatga olish kerak. Tartibni IIV migratsiya bo'limi yoki my.gov.uz orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+196,1,3,Yangi yashash manzili bo'yicha ro'yxatga olish my.gov.uz portali yoki Davlat xizmatlari markazi orqali xabardor qilish tartibida rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+197,1,3,"Voyaga yetmagan bola, qoida tariqasida, ota yoki onaning yashash joyi bo'yicha ro'yxatga olinadi. Ariza belgilangan tartibda beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+198,1,3,Fuqaro yashash joyi bo'yicha xabardor qilish tartibida qayta ro'yxatga olinadi; murojaat DXM yoki my.gov.uz orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+199,1,3,Fuqaroligi bo'lmagan shaxslar O'zbekistonda yashash guvohnomasi asosida rasmiylashtiriladi. Murojaat IIV migratsiya organlariga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+200,1,3,Chet ellik mehmon belgilangan qisqa muddatda yashash joyi bo'yicha ro'yxatga olinishi (mehmon qilinishi) lozim. Buni 'Ye-mehmon/Ye-xabar berish' tizimi orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+201,1,4,Ish haqi ma'lumotnomasi ish beruvchidan olinadi; ayrim rasmiy ma'lumotlar my.gov.uz va tegishli platformalar orqali ham rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+202,1,4,Yashash joyi (ro'yxatga olish) haqidagi ma'lumotnoma mahalla yoki tegishli organlar hamda my.gov.uz portali orqali olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+203,1,4,Ko'plab ma'lumotnomalar my.gov.uz portalidan bir necha daqiqada elektron (QR-kodli) shaklda yuklab olinadi. Aniq turini portaldan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+204,1,4,Ish staji va Pensiya jamg'armasiga to'langan ijtimoiy to'lovlar bo'yicha ma'lumotni tegishli platforma yoki my.gov.uz orqali ko'rish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+205,2,5,To'lov notarial harakat turiga qarab davlat boji va qo'shimcha (huquqiy-texnik) xizmatlardan iborat bo'ladi. Aniq summani notarial idoradan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+206,2,5,"Ha, ishonchnoma bergan shaxs uni istalgan vaqtda bekor qilishi mumkin; bekor qilish notarial tartibda rasmiylashtiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+207,2,5,"Ishonchnoma notarial tasdiqlanadi, zarur bo'lsa tarjima qilinib apostil yoki legalizatsiyadan o'tkaziladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+208,2,5,"Ba'zi bitimlar (masalan, ko'chmas mulk, hadya) uchun notarial tasdiqlash majburiy; boshqalar tomonlar ixtiyoriga bog'liq. Aniq holatni notariusdan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+209,2,5,"Notarial harakat bajarilgan idora yoki hududiy notarial arxivga murojaat qilib, hujjat nusxasi yoki dublikati olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+210,2,6,Kadastr raqami mulk hujjatlarida ko'rsatiladi va davreestr.uz portalidan obyekt bo'yicha qidirib topiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+211,2,6,Obyektni ajratish yoki birlashtirish kadastr hujjatlarini yangilash va davlat ro'yxatidan o'tkazish orqali amalga oshiriladi. Murojaat Kadastr agentligiga beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+212,2,6,"Avval notariusdan merosga bo'lgan huquq guvohnomasi olinadi, so'ng shu asosda huquq Kadastr agentligida yangi egaga ro'yxatdan o'tkaziladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+213,2,6,Tomorqa va boshqa yer uchastkalariga huquqlar belgilangan tartibda ro'yxatdan o'tkaziladi. Tartibni Kadastr agentligi yoki mahalliy hokimlikdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+214,2,6,"Baholash litsenziyaga ega baholash tashkilotlari tomonidan amalga oshiriladi; hisobot bitim, kredit yoki soliq maqsadlarida ishlatiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+215,3,7,Ayrim hollarda raqamni saqlab qolish yoki keyingi transportga ko'chirish imkoniyati mavjud. Tartibni DXM yoki my.gov.uz orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+216,3,7,Avtomobilni sotish uchun mulk huquqini tasdiqlovchi hujjat va tegishli vakolat (ishonchnoma) kerak. Bitim notarial tuziladi va transport yangi egaga qayd etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+217,3,7,Bunday ma'lumotlar tegishli reyestr va rasmiy platformalar orqali tekshiriladi. Bitimdan oldin taqiq va garov holatini aniqlash tavsiya etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+218,3,7,"Import qilingan transport bojxona rasmiylashtiruvidan o'tgach, DXM yoki my.gov.uz orqali ro'yxatga olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+219,3,7,"Yangi toifa uchun tegishli tayyorgarlik va imtihonlar topshiriladi; ayrim toifalar (D, CE va h.k.) uchun staj talabi bo'ladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+220,3,7,Belgilangan toifadagi shaxslar uchun transport va bojlar bo'yicha imtiyozlar ko'zda tutilishi mumkin. Aniq imtiyozni tegishli organdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+221,4,8,Onlayn savdo daromadi ham soliqqa tortiladi; soliq turi faoliyat shakliga bog'liq. Aniq tartibni Davlat soliq qo'mitasidan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+222,4,8,Ko'chmas mulkni ijaraga berish daromadi belgilangan stavkada soliqqa tortiladi va soliq.uz orqali deklaratsiya/to'lov amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+223,4,8,Shaxsiy kabinetga soliq.uz (my.soliq.uz) orqali ID-karta yoki elektron raqamli imzo bilan kiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+224,4,8,Kichik biznes uchun aylanmadan olinadigan soddalashtirilgan soliq shakli mavjud. Shartlar va stavkalarni soliq organidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+225,4,8,"Ha, ortiqcha to'langan yoki noto'g'ri hisoblangan soliq belgilangan tartibda qaytariladi yoki keyingi to'lovlarga hisoblanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+226,4,9,"Yuridik manzilni o'zgartirish ro'yxatga oluvchi organga ariza berish orqali, ko'pincha onlayn rasmiylashtiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+227,4,9,O'zgartirishlar tegishli qaror va hujjatlar asosida ro'yxatga oluvchi organda qayta rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+228,4,9,Faoliyat turlari ro'yxatga oluvchi organga ariza berish orqali qo'shiladi yoki o'zgartiriladi; ko'p hollarda onlayn amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+229,4,9,"Ro'yxatdan o'tish hujjatlari, STIR va rahbar hujjatlari bilan bankka murojaat qilinadi; ko'p banklar onlayn ochish imkonini beradi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+230,4,9,Onlayn-kassa va terminallar belgilangan tartibda soliq organida ro'yxatga olinadi. Aniq talablarni soliq.uz orqali tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+231,5,10,Xodimga yiliga kamida qonunda belgilangan miqdorda haq to'lanadigan mehnat ta'tili beriladi; ta'til grafik asosida rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+232,5,10,Tug'ruq ta'tili tibbiy hujjat (bemorlik varaqasi) asosida beriladi va qonunda belgilangan tartibda to'lanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+233,5,10,Bola parvarishi ta'tili ota-onadan biriga yoki boquvchiga bola belgilangan yoshga to'lguncha berilishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+234,5,10,Bemorlik varaqasi shifokor tomonidan rasmiylashtiriladi va staj hamda ish haqidan kelib chiqib belgilangan miqdorda to'lanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+235,5,10,"Avval ish beruvchiga yozma murojaat, natija bo'lmasa mehnat inspeksiyasi yoki sudga murojaat qilinadi; ishga tiklash talab qilinishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+236,5,10,Hodisa darhol ish beruvchiga xabar qilinadi va belgilangan tartibda tergov qilinadi; zarar qonun asosida qoplanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+237,5,11,Nogironlik Tibbiy-mehnat ekspert komissiyasi (TMEK) ko'rigi va xulosasi asosida belgilanadi; yo'llanma poliklinika orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+238,5,11,Texnik reabilitatsiya vositalari belgilangan tartibda ijtimoiy himoya organlari orqali taqdim etiladi. Murojaat tegishli organga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+239,5,11,Yolg'iz va yordamga muhtoj keksalarga ijtimoiy xizmat (uy sharoitida parvarish) ko'rsatilishi mumkin; murojaat mahalla va ijtimoiy himoya organlari orqali.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+240,5,11,"Bunday bolalar vasiylik va homiylik organlari nazoratida bo'lib, ta'lim, ta'minot va boshqa yordam belgilangan tartibda ko'rsatiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+241,5,11,"Tayinlangan nafaqa va yordam ma'lumotlari 'Ijtimoiy himoya yagona reyestri', mahalla yoki my.gov.uz orqali ko'riladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+242,6,12,Statsionar davolanish uchun yo'llanma biriktirilgan shifokor yoki poliklinika tomonidan beriladi; shoshilinch hollarda tez yordam orqali yotqiziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+243,6,12,Ko'p hududlarda tug'ruqxonani tanlash imkoniyati mavjud. Aniq tartibni biriktirilgan poliklinika yoki tibbiyot muassasasidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+244,6,12,Imtiyozli dorilar ro'yxati va shartlari biriktirilgan shifokor yoki poliklinika orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+245,6,12,Sanatoriy yo'llanmalari tibbiy ko'rsatma va belgilangan navbat asosida tegishli organlar orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+246,6,12,Psixologik yordam tibbiyot muassasalari va ishonch telefonlari orqali olinadi. Shoshilinch holatlarda 1000 yoki 103 orqali yordam so'rash mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+247,6,13,Bog'chaga ariza va navbat tegishli elektron tizim hamda my.gov.uz orqali kuzatiladi; bola hududga qarab biriktiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+248,6,13,Belgilangan hollarda eksternat yoki masofaviy ta'lim shakllari mavjud. Tartibni maktab yoki ta'lim bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+249,6,13,Diplom yoki attestatga apostil qo'yiladi va zarur bo'lsa notarial tarjima qilinadi. Ariza my.gov.uz orqali berilishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+250,6,13,Ayrim toifadagi talabalar uchun ta'lim krediti yoki to'lovni qoplash imkoniyatlari mavjud. Shartlarni o'quv muassasasi yoki rasmiy manbalardan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+251,6,13,O'qishni ko'chirish qabul qiluvchi muassasada bo'sh o'rin va o'zlashtirish asosida amalga oshiriladi; ariza tegishli muassasaga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+252,7,14,Talabalar uchun harbiy tayyorgarlik va xizmat belgilangan alohida tartiblarga ko'ra tashkil etiladi. Aniq tartibni mudofaa ishlari bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+253,7,14,Yaroqlilik tibbiy komissiya ko'rigi asosida belgilanadi; natijaga ko'ra kechiktirish yoki ozod qilish qarori chiqarilishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+254,7,14,Xizmatni o'tagan shaxslarga ta'lim va boshqa sohalarda ayrim imtiyozlar ko'zda tutilishi mumkin. Aniq ro'yxatni tegishli organdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+255,7,14,Harbiy majburiyatdan yosh chegarasiga yetganda hisobdan chiqariladi; bu mudofaa ishlari bo'limi orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+256,8,15,"Qarz ta'minlovchi tashkilotlarning rasmiy ilovalari va to'lov tizimlari (Click, Payme) orqali shaxsiy hisob bo'yicha tekshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+257,8,15,Kam ta'minlangan oilalarga kommunal xarajatlarga yordam berilishi mumkin; murojaat mahalla va ijtimoiy himoya organlari orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+258,8,15,Yangi gaz ulanishi hududiy gaz ta'minoti tashkilotiga ariza va texnik shartlar asosida rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+259,8,15,Belgilangan quvvatni oshirish uchun hududiy elektr tarmoqlari tashkilotiga ariza beriladi va texnik shartlar rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+260,8,15,Xizmat ko'rsatuvchi tashkilotga yoki mahalliy hokimlikka murojaat qilinadi; umumiy murojaatlar 1000 liniyasi orqali ham qabul qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+261,7,16,Da'vo bo'yicha davlat boji nizoning turi va summasidan kelib chiqib hisoblanadi; ayrim toifadagi shaxslar imtiyozga ega bo'lishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+262,7,16,Sud qaroriga qonunda belgilangan muddatda apellyatsiya yoki kassatsiya tartibida shikoyat beriladi. Muddatni o'tkazib yubormaslik muhim.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+263,7,16,Ko'p fuqarolik ishlarida vakil ixtiyoriy; ammo malakali yuridik yordam huquqlaringizni himoya qilishga yordam beradi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+264,7,16,"Sizga tushuntirish berish, dalillar taqdim etish va qarorga shikoyat qilish huquqi beriladi. Protokol bilan tanishib, e'tirozlaringizni yozib qoldiring.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+265,7,16,Kuchga kirgan sud qarori bo'yicha ijro varaqasi tegishli suddan olinadi va majburiy ijro organiga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+266,8,17,Diplomga apostil vakolatli organ (ta'lim sohasi bo'yicha) tomonidan qo'yiladi va notarial tarjima qilinadi. Ariza my.gov.uz orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+267,8,17,Chet elda tuzilgan nikoh belgilangan tartibda tan olinadi; hujjat legalizatsiya/apostil va tarjima bilan taqdim etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+268,8,17,"Xorijiy rasmiy hujjat, qoida tariqasida, legalizatsiya yoki apostil bilan tasdiqlanishi va rasmiy tarjima qilinishi lozim.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+269,8,17,"Konsullik hujjatlarni tasdiqlash, fuqarolik va shaxsni tasdiqlovchi hujjatlar, tug'ilish/nikoh qayd etish kabi bir qator xizmatlarni ko'rsatadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+270,8,18,Belgilangan qiymat yoki miqdordan oshgan jo'natmalar bojxona rasmiylashtiruvidan o'tadi va tegishli to'lovlar olinishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+271,8,18,Buyurtma yoki qimmatbaho jo'natma 'O'zbekiston pochtasi' (uz.post) bo'limlari orqali rasmiylashtiriladi va trek-kod bilan kuzatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+272,9,19,"Parolni tiklash portaldagi 'Parolni tiklash' funksiyasi orqali ID-karta, telefon raqami yoki elektron pochta bilan amalga oshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+273,9,19,Mobil ID — shaxsni masofadan tasdiqlash va tizimlarga kirish vositasi. U aloqa operatori yoki tegishli xizmat orqali ulanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+274,9,19,"Elektron ma'lumotnomalardagi QR-kod yoki tekshirish kodini tegishli rasmiy portalga kiritib, hujjat haqiqiyligi tasdiqlanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+275,9,19,Ayrim hayotiy vaziyatlar bo'yicha bog'liq xizmatlar ('hayotiy vaziyatlar') bir joyda ketma-ket rasmiylashtiriladi. Buni my.gov.uz orqali tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+276,9,19,Ayrim xizmatlar bo'yicha sayyor (uyga chiqib) xizmat ko'rsatish imkoniyati mavjud. Buni Davlat xizmatlari markazi yoki 1148 orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+277,9,19,Har bir xizmatning narxi (boji) yoki bepulligi my.gov.uz portalida xizmat sahifasida ko'rsatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+278,9,19,"Belgilangan muddatda javob bo'lmasa, yuqori turuvchi organga yoki Prezident Xalq qabulxonalari (pm.gov.uz, 1000) hamda 1148 orqali murojaat qilishingiz mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+279,9,19,"Xizmatlar, shartlar, hujjatlar va bojlar my.gov.uz portalida jamlangan; qo'shimcha savollar bo'yicha 1148 raqamiga qo'ng'iroq qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+280,9,19,Muddati tugagan elektron raqamli imzo tegishli ro'yxatga olish markazi orqali yangilanadi yoki qayta rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+281,9,19,"Yangi hujjat rasmiylashtirilgan bo'lsa, eskisi (topilgan) yaroqsiz hisoblanadi. Aniq tartibni hujjatni bergan organdan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+282,1,1,"Amal muddati kartaning o'zida ko'rsatiladi. Muddat tugashidan oldin uni almashtirish uchun migratsiya bo'limi, Davlat xizmatlari markazi yoki my.gov.uz orqali murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+283,1,1,Qonunchilikda ayrim toifalarga boj bo'yicha imtiyoz yoki ozod qilish ko'zda tutilishi mumkin. Aniq imtiyozni migratsiya bo'limi yoki DXMdan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+284,1,1,Hujjatdagi imlo xatosi tegishli organga ariza berish orqali tuzatiladi; punkt aybi bilan bo'lgan xato ko'pincha bepul tuzatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+285,1,1,"Bola tug'ilganligi konsullik yoki FHDYO orqali qayd etilgach, ID-karta belgilangan yoshda va tartibda rasmiylashtiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+286,1,1,Muddatida almashtirmaslik yoki ro'yxat qoidalarini buzish ma'muriy jarimaga sabab bo'lishi mumkin. Miqdor BHMga bog'liq va o'zgarib turadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+287,1,1,"ID-karta biometrik ma'lumot talab qilgani uchun, qoida tariqasida, egasining shaxsan ishtiroki zarur. Istisnolarni migratsiya bo'limidan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+288,1,2,Ajrashishda yoki keyin familiyani qizlik familiyasiga qaytarish FHDYO orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+289,1,2,"Uzrli holatlar (masalan, homiladorlik yoki bola tug'ilishi) va nikohlanuvchining iltimosi asosida tuman/shahar hokimi nikoh yoshini eng ko'pi bilan bir yilga kamaytirishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+290,1,2,Farzandlikka olish sud qarori asosida rasmiylashtiriladi va tegishli o'zgartirishlar FHDYO yozuviga kiritiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+291,1,2,"Ajrim FHDYO yoki sud orqali rasmiylashtirilgach, ajralganlik to'g'risidagi guvohnoma nikoh qayd etilgan joydagi FHDYO bo'limidan olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+292,1,2,Guvohnoma belgilangan davlat shaklida beriladi; xorij uchun notarial tarjima va zarur bo'lsa apostil rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+293,1,2,Otalik faktini vafotdan keyin tan oldirish sud tartibida amalga oshiriladi; sud qarori asosida FHDYO yozuvi rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+294,1,3,Doimiy ro'yxat bitta yashash joyi bo'yicha bo'ladi; boshqa joyda vaqtincha turgan joyi bo'yicha ro'yxatga olish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+295,1,3,"Yashash joyi bo'yicha ro'yxatga olish uchun, qoida tariqasida, mulkdorning roziligi kerak. Nizoli holatlarni tegishli organ yoki sud orqali hal qilish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+296,1,3,Ko'p hollarda bola yashab turgan joyiga qarab biriktiriladi. Aniq tartibni ta'lim bo'limi yoki maktabdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+297,1,3,O'qish uchun kelgan chet ellik talabalar belgilangan tartibda turgan joyi bo'yicha ro'yxatga olinadi; ko'pincha o'quv muassasasi ko'maklashadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+298,1,3,Ayrim toifadagi shaxslar uchun fuqarolik va ro'yxatga olishda soddalashtirilgan tartiblar ko'zda tutilishi mumkin. Aniq shartlarni migratsiya organidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+299,1,3,Uzoq muddatli chiqishda ayrim hollarda hisobga oid ma'lumotlar yangilanadi. Tartibni IIV migratsiya bo'limi yoki konsullikdan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+300,1,4,Oilaviy ahvol haqidagi ma'lumotnoma FHDYO yozuvlari asosida beriladi; ko'p hollarda my.gov.uz orqali onlayn rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+301,1,4,Vafot yozuvidan ko'chirma yoki ma'lumotnoma FHDYO bo'limi yoki my.gov.uz orqali buyurtma qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+302,1,4,Bunday ma'lumotnoma tegishli organ yoki notarial idorada rasmiylashtiriladi; chet elda konsullik orqali olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+303,1,4,Qarzsizlik ma'lumoti tegishli soliq/bojxona portallari va shaxsiy kabinet orqali tekshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+304,2,5,Qarz shartnomasi yoki tilxat notarial tasdiqlanishi mumkin; bu kelajakda undiruvni osonlashtiradi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+305,2,5,Bola nomidan bitimlar qonuniy vakil ishtirokida va zarur hollarda vasiylik-homiylik organi roziligi bilan tuziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+306,2,5,"Zarur hollarda notarial harakatlar shaxs turgan joyda (uyda, shifoxonada) amalga oshirilishi mumkin. Buni notarial idoradan so'rang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+307,2,5,"Portal orqali notarius qabuliga yozilish, eng yaqin idorani topish, ishonchnoma va meros ishlarini tekshirish kabi imkoniyatlar mavjud.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+308,2,5,Ulushlar qonun yoki vasiyatnoma asosida notarius tomonidan belgilanadi. Nizo bo'lsa masala sud orqali hal etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+309,2,6,Mulk ulushini ajratish kelishuv bo'lmasa sud tartibida amalga oshiriladi; qaror asosida kadastr hujjatlari yangilanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+310,2,6,"Tugallanmagan qurilish obyektiga bo'lgan huquqlar belgilangan tartibda rasmiylashtirilib, keyin bitim tuzilishi mumkin. Tartibni Kadastr agentligidan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+311,2,6,Umumiy mulk egalari va ularning ulushlari davlat reyestriga kiritiladi; ro'yxatga olish Kadastr agentligi orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+312,2,6,Manzil o'zgarganda kadastr va boshqa ma'lumotlar tegishli tartibda yangilanadi. Ariza Kadastr agentligiga beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+313,2,6,"Kredit yopilgach, garov (ipoteka) yozuvi bankning arizasi asosida davlat reyestridan chiqariladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+314,3,7,Ayrim jiddiy qoidabuzarliklarda haydash huquqidan mahrum qilish nazarda tutiladi; qaror belgilangan tartibda chiqariladi va shikoyat qilinishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+315,3,7,Majburiy avtosug'urta polisi sug'urta tashkilotlari yoki ularning onlayn xizmatlari orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+316,3,7,Ro'yxatga olish umumiy tartibda amalga oshiriladi; ayrim toifalar uchun boj yoki imtiyozlarda farq bo'lishi mumkin. DXMdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+317,3,7,Egasi bilan birga bo'lmaganda boshqarish uchun tegishli hujjat yoki vakolat talab qilinishi mumkin. Amaldagi tartibni YHXX/DXMdan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+318,3,7,Yo'qolgan yoki buzilgan davlat raqam belgisi DXM yoki my.gov.uz orqali qayta rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+319,4,8,Faoliyatni vaqtincha to'xtatib turish belgilangan tartibda soliq organiga xabar berish orqali amalga oshiriladi. Shartlarni soliq.uz orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+320,4,8,"Shaxsiy pul o'tkazmalari, qoida tariqasida, alohida soliqqa tortilmaydi; tadbirkorlik daromadi soliqqa tortiladi. Aniq holatni soliq organidan tekshiring.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+321,4,8,"Mulkni sotishdan olingan daromad ayrim hollarda soliqqa tortiladi (masalan, egalik muddati va boshqa shartlarga qarab). Tafsilotni soliq organidan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+322,4,8,Yuridik shaxs yoki tadbirkorning hisobga qo'yilgan ma'lumotlari STIR orqali my.gov.uz yoki soliq portallarida tekshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+323,4,8,Kechikish yoki topshirmaslik ma'muriy javobgarlik va penyaga sabab bo'lishi mumkin. Muddatlarni soliq.uz kabinetdan kuzating.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+324,4,9,Oilaviy tadbirkorlik belgilangan tartibda onlayn (my.gov.uz / birdarcha.uz) yoki DXM orqali ro'yxatdan o'tkaziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+325,4,9,Dehqon xo'jaligi yuridik shaxs tashkil etmagan holda belgilangan tartibda ro'yxatga olinadi. Tartibni ro'yxatga oluvchi organdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+326,4,9,"Ha, chet el ishtirokidagi yuridik shaxs belgilangan tartibda ro'yxatdan o'tkaziladi. Talablarni ro'yxatga oluvchi organdan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+327,4,9,"Nomni o'zgartirish yangi nomni band qilib, ro'yxatga oluvchi organga ariza berish orqali rasmiylashtiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+328,4,9,Ayrim yo'nalishlarda imtiyozli kredit va qo'llab-quvvatlash dasturlari mavjud. Shartlarni banklar va rasmiy dasturlar orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+329,5,10,"Qonunda belgilangan hollarda foydalanilmagan ta'til uchun kompensatsiya to'lanadi (masalan, ishdan bo'shaganda).",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+330,5,10,Shart-sharoitni o'zgartirish qonunda belgilangan tartibda va xodimni oldindan xabardor qilish bilan amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+331,5,10,Sinov muddati qonunda belgilangan chegaradan oshmasligi kerak va mehnat shartnomasida ko'rsatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+332,5,10,Masofaviy ish mehnat shartnomasida alohida shart sifatida ko'rsatiladi va yagona mehnat tizimida ro'yxatga olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+333,5,10,"Odatda shaxsni tasdiqlovchi hujjat, ta'lim hujjati, zarur hollarda tibbiy ma'lumotnoma va boshqa belgilangan hujjatlar talab qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+334,5,10,"Ta'til davrida bemorlik varaqasi olingan bo'lsa, ta'til belgilangan tartibda uzaytirilishi yoki ko'chirilishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+335,5,11,Belgilangan muddatda qayta ko'rik (qayta guvohlantirish) TMEK orqali o'tkaziladi; yo'llanma poliklinika orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+336,5,11,Bemorlik yoki jarohat tufayli vaqtincha ishlay olmagan xodimga bemorlik varaqasi asosida nafaqa to'lanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+337,5,11,"Bir martalik yordam mahalla va ijtimoiy himoya organlari orqali, holatni tasdiqlovchi hujjatlar asosida beriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+338,5,11,Pensiya jamg'armasining tuman (shahar) bo'limiga yoki tegishli ijtimoiy himoya organiga murojaat qilib qayta ko'rib chiqishni so'rash mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+339,5,11,Yordam tayinlashda oila daromadi va sharoiti 'Ijtimoiy himoya yagona reyestri' orqali baholanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+340,6,12,Yangi poliklinikaga biriktirilganda tibbiy ma'lumotlar belgilangan tartibda o'tkaziladi. Buni biriktirilgan muassasadan so'rang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+341,6,12,Shoshilinch tibbiy yordam ko'rsatiladi; boshqa xizmatlar belgilangan tartib va to'lov asosida bo'lishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+342,6,12,Majburiy ko'riklar litsenziyaga ega tibbiyot muassasalarida o'tkaziladi va tegishli ma'lumotnoma beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+343,6,12,Qon topshirish qon markazlarida shaxsni tasdiqlovchi hujjat va tibbiy ko'rik asosida amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+344,6,12,"Avval muassasa ma'muriyatiga, so'ng Sog'liqni saqlash vazirligining tegishli organi yoki sudga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+345,6,13,Bitiruv imtihonlaridan o'tgan o'quvchiga maktab tomonidan attestat beriladi. Yo'qolsa dublikat olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+346,6,13,Bunday kurslar tegishli o'quv markazlari orqali tashkil etiladi; ma'lumotni ish beruvchi yoki muassasadan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+347,6,13,Joylashtirish tibbiy-psixologik-pedagogik komissiya xulosasi asosida amalga oshiriladi. Murojaat ta'lim bo'limiga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+348,6,13,Ko'p muassasalarda kontrakt to'lovini bo'lib-bo'lib to'lash imkoniyati mavjud. Shartlarni o'quv muassasasidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+349,6,13,"Diplom ilovasi yo'qolsa yoki kerak bo'lsa, uni bergan o'quv muassasasiga murojaat qilib dublikat olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+350,7,14,Kechiktirish (otsrochka) uchun asoslovchi hujjatlar bilan yashash joyidagi mudofaa ishlari bo'limiga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+351,7,14,Zaxiradagi shaxslar belgilangan tartibda o'quv to'plamlariga (sborlarga) mudofaa ishlari bo'limi orqali chaqiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+352,7,14,Kontrakt xizmat belgilangan talablar va tanlov asosida tegishli harbiy organlar orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+353,7,14,Chaqiruvdan bo'yin tovlash yoki majburiyatni buzish qonunda belgilangan javobgarlikka sabab bo'ladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+354,8,15,Ko'p kvartirali uy egalari shirkat orqali umumiy mulkni boshqaradi; a'zolik va to'lovlar shirkat qarori bilan belgilanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+355,8,15,"Ko'rsatkichlar ta'minlovchi tashkilotning ilovasi, shaxsiy kabineti yoki belgilangan usullar orqali topshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+356,8,15,"Zarar aybdor tomon yoki sug'urta orqali qoplanishi mumkin; dalillarni qayd etib, ta'minlovchi tashkilot yoki sudga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+357,8,15,Mulkdorning roziligi bilan turgan joyi bo'yicha vaqtincha ro'yxatga olish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+358,8,15,Ijara shartnomasi tuziladi va ijaradan olingan daromad belgilangan tartibda soliqqa tortiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+359,7,16,Aniq va nizosiz talablar bo'yicha soddalashtirilgan (sud buyrug'i) tartibida undiruv amalga oshirilishi mumkin. Ariza tegishli sudga beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+360,7,16,Ma'lumotni sud kotibiyati yoki sud organlarining elektron platformasi (e-sud) orqali bilib olish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+361,7,16,"Sizga ma'lumot berish, himoya va ish yuzasidan tushuntirish olish kabi huquqlar beriladi. Batafsil ma'lumotni sud yoki yuridik yordam orqali oling.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+362,7,16,Qaror nusxasi ish yuritilgan suddan yoki elektron platforma orqali olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+363,7,16,"Ha, taraflar sud jarayonida sulh bitimini tuzishi mumkin; u sud tomonidan tasdiqlanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+364,8,17,"Ma'lumotnoma my.gov.uz orqali olinib, so'ng vakolatli organda apostil bilan tasdiqlanadi va zarur bo'lsa tarjima qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+365,8,17,Belgilangan shartlar asosida ayrim ko'chmas mulk turlarini sotib olish mumkin. Aniq shartlarni tegishli organdan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+366,8,17,Vaqtincha bo'lganlar uchun belgilangan muddatda xorijiy guvohnoma amal qilishi mumkin; doimiy yashovchilar milliy guvohnomaga almashtiradi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+367,8,17,Doimiy ketish belgilangan tartibda rasmiylashtiriladi; zarur hujjatlar va konsullik hisobiga oid masalalarni migratsiya organi va konsullikdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+368,8,18,Ayrim oluvchilar uchun to'lovlar pochta orqali yetkazib berilishi mumkin; ko'pchilik uchun bank kartasiga o'tkaziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+369,8,18,Shikoyat 'O'zbekiston pochtasi' (uz.post) bo'limiga trek-kod va jo'natma hujjatlari bilan beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+370,9,19,"Rad etish sabablari bartaraf etilgach, qayta ariza my.gov.uz yoki tegishli organ orqali topshiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+371,9,19,Har bir xizmatning hujjatlar ro'yxati va shartlari my.gov.uz portalidagi xizmat sahifasida keltirilgan.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+372,9,19,Xizmatdan so'ng my.gov.uz yoki 1148 orqali baho va fikr-mulohaza qoldirish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+373,9,19,"Idoralararo elektron hamkorlik tufayli ko'p ma'lumotlar (masalan, ro'yxat, fuqarolik holati) fuqarodan qayta talab qilinmasdan olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+374,9,19,Turmush sharoiti yoki oila tarkibi haqidagi ma'lumotnoma mahalla (fuqarolar yig'ini) orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+375,9,19,Hujjat tegishli portal yoki dasturda elektron raqamli imzo (ERI) kaliti orqali imzolanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+376,9,19,"Ko'p portallar (masalan, my.gov.uz) bir necha tilda ishlaydi; tilni interfeys sozlamalaridan tanlash mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+377,9,19,Voyaga yetmagan bola uchun xizmatlarni ota-ona yoki qonuniy vakil rasmiylashtiradi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+378,9,19,Ichki ishlar organiga ariza beriladi; aloqa operatori orqali qurilma yoki raqamni bloklash so'raladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+379,9,19,Bunday belgi va imtiyozlar belgilangan toifadagi shaxslarga tegishli organlar orqali rasmiylashtiriladi. Shartlarni ijtimoiy himoya organidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+380,9,19,"Voyaga yetmaganlar uchun karta qonuniy vakil (ota-ona) ishtirokida, belgilangan yosh va shartlar asosida bankda ochiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+381,1,3,"Chiqishga taqiq (masalan, qarz yoki aliment yuzasidan) yo'qligini majburiy ijro organlari va tegishli rasmiy tizimlar orqali oldindan tekshirish tavsiya etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+382,1,1,Xato ma'lumot tegishli migratsiya bo'limi yoki Davlat xizmatlari markaziga ariza berish orqali tuzatiladi; punkt aybi bilan bo'lsa ko'pincha bepul.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+383,1,1,ID-karta va xorijga chiqish biometrik pasporti alohida maqsadlarga xizmat qiladi va ikkalasi ham amalda bo'lishi mumkin. Bir xil turdagi ikkita hujjat bo'lmaydi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+384,1,1,O'zbekiston fuqaroligini ID-karta va xorijga chiqish biometrik pasporti tasdiqlaydi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+385,1,1,Bunday hollarda biometrik ma'lumotlarni yig'ish shaxs turgan joyda amalga oshirilishi mumkin. Tartibni migratsiya bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+386,1,1,Chet eldagi fuqaro O'zbekistonning diplomatik vakolatxonasi yoki konsullik muassasasiga murojaat qiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+387,1,1,O'g'irlik haqida ichki ishlar organiga ariza beriladi va yangi ID-karta rasmiylashtiriladi. Bu suiiste'moldan himoya qiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+388,1,2,Takroriy nikoh oldingi nikoh bekor qilinganligini tasdiqlovchi hujjat (ajrim yoki o'lim guvohnomasi) bilan belgilangan umumiy tartibda qayd etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+389,1,2,Nikohni haqiqiy emas deb topish qonunda belgilangan asoslar bo'lganda sud tartibida amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+390,1,2,Familiya ota-ona kelishuvi asosida belgilanadi; milliy an'analarga ko'ra bobo ismi bo'yicha ham berilishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+391,1,2,Bunday hollarda hujjatlar qonuniy vakil (vasiy/homiy) tomonidan vasiylik va homiylik organi nazoratida rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+392,1,2,Dalolatnoma yozuvidagi xato FHDYOga ariza berish orqali belgilangan tartibda tuzatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+393,1,2,Yo'q. Nikoh faqat nikohlanuvchilarning shaxsan ishtirokida qayd etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+394,1,2,"FHDYO rad etsa, yuqori turuvchi organga yoki bevosita sudga shikoyat qilish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+395,1,3,"Voyaga yetmagan bola, qoida tariqasida, ota yoki onasi yashash joyiga ro'yxatga olinadi. Nizoli holatlar tegishli organ yoki sud orqali hal qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+396,1,3,Sotilgan uyda ro'yxatda turganlar yangi yashash joyi bo'yicha qayta ro'yxatga olinishi lozim. Tartibni migratsiya bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+397,1,3,Yo'qolgan yashash guvohnomasini tiklash uchun IIV migratsiya organlariga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+398,1,3,"Yashash joyini o'zgartirganda eski manzildan chiqib, yangi manzilga xabardor qilish tartibida ro'yxatga olinadi; ko'p hollarda bu bir jarayonda amalga oshadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+399,1,3,Fuqaro yashash joyi bo'yicha xabardor qilish tartibida qayta ro'yxatga olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+400,1,3,Chet ellikning ishlashi va ro'yxatga olinishi o'zaro bog'liq belgilangan tartibda amalga oshiriladi. Tafsilotni migratsiya/mehnat organidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+401,1,4,Tugatilgan tashkilot hujjatlari arxivga topshiriladi; staj arxiv ma'lumotnomasi orqali tasdiqlanadi. Murojaat tegishli arxivga beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+402,1,4,Ta'lim hujjatlari haqiqiyligi tegishli reyestrlar va vakolatli organ orqali tekshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+403,1,4,"Hisob varaqasidan ko'chirma bankning ilovasi, shaxsiy kabineti yoki bo'limi orqali olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+404,1,4,Oila tarkibi haqidagi ma'lumot mahalla yoki tegishli organ hamda my.gov.uz orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+405,1,4,Nogironlik TMEK xulosasi asosida belgilanadi; tasdiqlovchi hujjat ijtimoiy himoya organlari orqali beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+406,2,5,"Ha, umumiy mulkni sotishda, qoida tariqasida, barcha ulushdorlarning roziligi talab qilinadi; ulushdorlarning imtiyozli sotib olish huquqi ham bo'ladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+407,2,5,Vasiyat qiluvchi istalgan vaqtda vasiyatnomani o'zgartirishi yoki bekor qilishi mumkin; bu notarial tartibda rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+408,2,5,Asl hujjat va uning tarjimasi taqdim etiladi; notarius tarjimon imzosining haqiqiyligini belgilangan tartibda tasdiqlaydi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+409,2,5,"Ishonchnoma muddati unda ko'rsatiladi; muddat ko'rsatilmasa, qonunda belgilangan tartibda amal qiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+410,2,5,"Notarius rad etganda uning asoslarini yozma so'rash, so'ng Adliya vazirligi (1008) yoki sudga murojaat qilish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+411,2,6,Hadya shartnomasi notarial tasdiqlanadi va davlat boji olinadi; yaqin qarindoshlar o'rtasida imtiyozlar mavjud.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+412,2,6,Yerning maqsadli belgilanishini o'zgartirish belgilangan tartibda vakolatli organlar orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+413,2,6,"Chegara nizolari kadastr ma'lumotlari asosida, kelishuv bo'lmasa sud tartibida hal etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+414,2,6,"Xatlash uni qo'ygan organ yoki sud qaroriga binoan olib tashlanadi; asosni tekshirib, tegishli organga murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+415,2,6,"Foydalanishga ruxsat olingach, obyekt kadastr hisobiga olinadi va huquqlar davlat ro'yxatidan o'tkaziladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+416,2,6,"Egalik o'zgargan bo'lsa, yangi huquq hujjatlari asosida davlat reyestriga o'zgartirish kiritiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+417,3,7,Ayrim hollarda transportni vaqtincha hisobdan chiqarish imkoniyati mavjud. Tartibni DXM yoki my.gov.uz orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+418,3,7,"Konstruksiyaga oid o'zgarishlar (dvigatel, rang) belgilangan tartibda qayd etilishi lozim.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+419,3,7,"Ayrim toifalarni boshqarish uchun staj talabi mavjud (masalan, D, CE). Aniq shartlarni YHXX/DXMdan aniqlang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+420,3,7,Xalqaro guvohnoma milliy guvohnoma asosida belgilangan tartibda beriladi. Murojaat tegishli organga topshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+421,3,7,Transport bilan bog'liq soliq/yig'imlar belgilangan tartibda hisoblanadi va to'lov tizimlari orqali to'lanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+422,3,7,Xorijga olib chiqishda transport hujjatlari va zarur bo'lsa ruxsat/bojxona rasmiylashtiruvi talab qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+423,4,8,"Qonunchilikda ayrim xarajatlar (masalan, ipoteka yoki ta'lim) bo'yicha imtiyoz yoki chegirmalar ko'zda tutilishi mumkin. Aniq holatni soliq organidan tekshiring.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+424,4,8,Rezident shaxsning ayrim xorijiy daromadlari deklaratsiya qilinishi mumkin. Aniq tartibni Davlat soliq qo'mitasidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+425,4,8,Hisob-kitob solishtiruvi soliq.uz shaxsiy kabineti orqali yoki soliq organiga murojaat qilib amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+426,4,8,Chekdagi QR-kod tegishli rasmiy ilova yoki portal orqali tekshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+427,4,8,Belgilangan hollarda soliq to'lovini bo'lib to'lash yoki muddatini uzaytirish uchun soliq organiga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+428,4,9,Faoliyat to'xtatilgan davrda ham belgilangan hisobot talablari bo'lishi mumkin. Aniq holatni soliq.uz orqali aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+429,4,9,Qayta tashkil etish tegishli qaror va hujjatlar asosida ro'yxatga oluvchi organda rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+430,4,9,Filial yoki vakolatxona bosh tashkilot qarori asosida belgilangan tartibda ro'yxatga olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+431,4,9,Tovar belgisi intellektual mulk sohasidagi vakolatli organga ariza berish orqali ro'yxatdan o'tkaziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+432,4,9,Muddati tugagan ruxsat hujjati belgilangan tartibda uzaytiriladi yoki qayta rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+433,4,9,Faoliyat yoki ulushni o'tkazish belgilangan tartibda hujjatlashtiriladi va ro'yxatga oluvchi organda qayd etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+434,5,10,"Xodim ish beruvchiga yozma murojaat qilib, natija bo'lmasa mehnat inspeksiyasi yoki sudga murojaat qilishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+435,5,10,Xodim qonunda belgilangan muddatda ish beruvchini yozma ogohlantiradi. Aniq muddatni mehnat qonunchiligidan tekshiring.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+436,5,10,Ushlab qolishlar qonun yoki ijro hujjatlari asosida ish haqidan chegiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+437,5,10,"Qisqartirishda oldindan xabardor qilish, tegishli to'lovlar va ayrim hollarda bandlikka ko'maklashish kabi kafolatlar ko'zda tutiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+438,5,10,"Ha, qonunda bunday xodimlar uchun mehnat sharoiti va ish vaqti bo'yicha imtiyozlar ko'zda tutilgan.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+439,5,10,O'rindoshlik asosida ishlash qonunda belgilangan tartibda mumkin; bu mehnat shartnomasida ko'rsatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+440,5,11,Ko'p bolali va kam ta'minlangan oilalar uchun nafaqa va yordam 'Ijtimoiy himoya yagona reyestri' asosida tayinlanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+441,5,11,Bola parvarishi bilan bog'liq nafaqalar belgilangan shartlarda beriladi. Aniq holatni ijtimoiy himoya organidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+442,5,11,Joylashtirish tegishli organlar qarori va shaxsning ehtiyoji asosida amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+443,5,11,Pensiya jamg'armasi tuman (shahar) bo'limiga yoki ijtimoiy himoya organiga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+444,5,11,Bunday maqom qonunda belgilangan mezonlar asosida tegishli organlar orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+445,6,12,"Aniq manzil, bemorning holati va aloqa uchun telefon raqami bildiriladi. Tez yordam 103 raqami orqali chaqiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+446,6,12,Bir qator xizmatlar davlat kafolatidagi bepul yordam doirasida; qo'shimcha xizmatlar belgilangan tartibda to'lanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+447,6,12,Bemor o'zining tibbiy hujjatlari nusxasini belgilangan tartibda tibbiyot muassasasidan olishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+448,6,12,Rejali emlashlar biriktirilgan poliklinika yoki tegishli tibbiyot muassasasida bepul o'tkaziladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+449,6,12,Tibbiy hujjatlar tarjima va zarur bo'lsa apostil bilan tayyorlanadi; ayrim hollarda yo'llanma tegishli organ orqali rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+450,6,13,Maktabga qabulda bola yoshi va tayyorligi tegishli tartibda hisobga olinadi. Batafsil ma'lumotni maktab yoki ta'lim bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+451,6,13,"Yozgi dam olish va mashg'ulotlar maktab, mahalla va tegishli tashkilotlar orqali tashkil etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+452,6,13,Bola tegishli hujjatlar (va zarur bo'lsa tan olingan ta'lim hujjatlari) asosida maktabga joylashtiriladi. Murojaat ta'lim bo'limiga beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+453,6,13,Akademik ta'til (sog'liq yoki boshqa asosli sabablar bilan) o'quv muassasasiga ariza va tegishli hujjatlar asosida beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+454,6,13,Ta'lim shaklini o'zgartirish o'quv muassasasi tartibi va bo'sh o'rinlar asosida amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+455,7,14,Chaqiruvchilar mudofaa ishlari bo'limi tashkil etadigan tibbiy komissiyada ko'rikdan o'tadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+456,7,14,Ayrim lavozim va imtiyozlar harbiy majburiyatni bajarish bilan bog'liq bo'lishi mumkin. Aniq holatni mudofaa ishlari bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+457,7,14,Rezerv maqomi tegishli tayyorgarlik va belgilangan tartib asosida beriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+458,7,14,Harbiy bilet yoki ro'yxat guvohnomasi ishga joylashish va bir qator rasmiy jarayonlarda talab qilinishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+459,8,15,Muhtojlik mezonlari asosida navbatga qo'yish mahalliy hokimlik va tegishli organlar orqali amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+460,8,15,Kapital ta'mir belgilangan tartibda mulkdorlar mablag'i va tegishli manbalar hisobidan amalga oshiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+461,8,15,Amaldagi tariflar ta'minlovchi tashkilotlar va rasmiy manbalar orqali e'lon qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+462,8,15,Hisob-kitob bo'yicha e'tiroz tegishli ta'minlovchi tashkilotga bildiriladi; hal bo'lmasa yuqori organ yoki sudga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+463,8,15,Turar joyni noturar maqsadda ishlatish uchun belgilangan tartibda ruxsat va maqsadli belgilanishni o'zgartirish talab qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+464,7,16,Aniq va nizosiz talablar soddalashtirilgan (sud buyrug'i) tartibida ko'rilishi mumkin; boshqa hollarda oddiy da'vo tartibi qo'llanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+465,7,16,Ijro varaqasini ijroga taqdim etish muddati qonunda belgilangan. Muddatni o'tkazib yubormaslik muhim.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+466,7,16,"Da'vo muddati — huquqni himoya qilish uchun sudga murojaat qilish mumkin bo'lgan muddat. U o'tkazib yuborilsa, huquq himoyasi cheklanishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+467,7,16,Advokatlar palatasi yoki tegishli organga shikoyat berish mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+468,7,16,"Mediatsiya — nizoni sudsiz, vositachi yordamida hal qilish usuli. Kelishuvga erishilsa, u tomonlar uchun majburiy bo'ladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+469,7,16,Jabrlanuvchi jinoyat ishi doirasida yoki fuqarolik tartibida zararni undirish uchun da'vo qo'zg'atishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+470,8,17,"Ha, chet el ishonchnomasi legalizatsiya yoki apostil bilan tasdiqlangan va tarjima qilingan bo'lsa ishlatilishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+471,8,17,"O'lim xorijiy vakolatli organ tomonidan qayd etilib, hujjat legalizatsiya/apostil va tarjima bilan O'zbekistonda tan olinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+472,8,17,"Bunday holatlar tegishli vakolatli organlar va sud orqali, xalqaro hamkorlik doirasida hal etiladi. Zudlik bilan huquqiy yordam so'rang.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+473,8,17,"Rasmiy hujjatlar konsullik va vakolatli organlar orqali, xalqaro shartnomalar asosida almashiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+474,8,18,Yetkazish muddati jo'natma turi va manzilga bog'liq. Aniq muddatni 'O'zbekiston pochtasi' (uz.post) bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+475,8,18,Ayrim tovarlarni jo'natish taqiqlanadi yoki cheklanadi; jo'natma bojxona qoidalariga muvofiq rasmiylashtiriladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+476,8,18,Ayrim xizmatlarda yetkazib berishda to'lov imkoniyati mavjud. Buni pochta bo'limidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+477,9,19,"my.gov.uz portalida bog'liq xizmatlar 'hayotiy vaziyatlar' bo'limida jamlangan bo'lib, ketma-ket rasmiylashtiriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+478,9,19,"Shaxsiy kabinetda aloqa ma'lumotlari, tildagi sozlamalar va bildirishnomalarni my.gov.uz orqali sozlash mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+479,9,19,"Eng yaqin markaz my.gov.uz yoki tegishli ilova xaritasi orqali, joylashuvingizga qarab topiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+480,9,19,Ish vaqti va bayram kunlari jadvali tegishli organ yoki DXM tomonidan e'lon qilinadi; onlayn xizmatlar ko'pincha kunu-tun ishlaydi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+481,9,19,"To'lov o'tmasa yoki ikki marta yechilsa, to'lov tizimi yoki bank call-markaziga murojaat qilinadi; noto'g'ri to'lov qaytariladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+482,9,19,Ko'rib chiqilmagan ariza tegishli tartibda tuzatilishi yoki qayta topshirilishi mumkin.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+483,9,19,"Elektron murojaatlar tegishli portallar (masalan, pm.gov.uz) yoki idoraviy tizimlar orqali yuboriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+484,9,19,"Javobdan norozi bo'lsangiz, yuqori turuvchi organga qayta murojaat qilish yoki shikoyat berish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+485,9,19,Aloqa ma'lumotlari my.gov.uz shaxsiy kabineti sozlamalari orqali yangilanadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+486,9,19,Ayrim hollarda (ayniqsa shifoxonada tug'ilganda) tug'ilishni onlayn ariza orqali rasmiylashtirish imkoniyati mavjud.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+487,9,19,"SMS-xabarlar ariza holati, zarur hujjatlar yoki to'lovlar bo'yicha ogohlantirish uchun yuboriladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+488,9,19,"Ilova rasmiy ilova do'konlaridan (App Store, Google Play) yuklab olinadi va ID-karta yoki ERI orqali kirish sozlanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+489,9,19,Ayrim xizmatlar bo'yicha navbat my.gov.uz yoki tegishli tizim orqali oldindan olinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+490,9,19,"Rad etish yozma va asoslantirilgan bo'lishi shart. Asossiz rad etishga yuqori organ yoki sudga, shuningdek 1148 orqali murojaat qilinadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+491,9,19,"Ha, ariza yoki murojaat holatini 1148 yoki tegishli idora call-markazi orqali ham bilib olish mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+492,9,19,Davlat xizmatlari markazlarida yordamga muhtoj shaxslar uchun ko'maklashish ko'zda tutilgan; ayrim xizmatlar sayyor tarzda ham ko'rsatiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+493,9,19,Dublikat berish muddati hujjat turiga bog'liq; ko'p hollarda qisqa muddatda rasmiylashtiriladi. Aniq muddatni beruvchi organdan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+494,9,19,"Voyaga yetmaganlar uchun karta qonuniy vakil ishtirokida, belgilangan yosh va shartlar asosida bankda ochiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+495,1,1,"JSHSHIR tug'ilish qayd etilib, shaxsni tasdiqlovchi hujjat rasmiylashtirilganda beriladi va keyingi barcha xizmatlarda ishlatiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+496,1,2,"Ha, nikohda er-xotin umumiy familiyani yoki har biri o'z familiyasini saqlashni tanlashi mumkin; bu FHDYOda qayd etiladi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+497,1,3,"Ha, yashash joyi (ro'yxatga olish) ma'lumoti ID-karta chipida saqlanadi va o'zgarganda yangilanadi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+498,2,5,"Ko'p notarial harakatlar guvohsiz amalga oshiriladi; ayrim hollarda (masalan, imzolay olmaydigan shaxs uchun) guvoh talab qilinishi mumkin.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+499,8,15,"Yangi egа ta'minlovchi tashkilotlarga murojaat qilib, hisoblarni o'z nomiga qayta rasmiylashtiradi.",active,2026-08-04 00:00:00,2026-08-04 00:00:00
+500,3,7,Hadya shartnomasi notarial tuziladi; yaqin qarindoshlar o'rtasida boj imtiyozi mavjud. So'ng transport yangi egaga qayd etiladi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+501,5,10,Shaxsni tasdiqlovchi hujjat va zarur bo'lsa ta'lim/mehnat hujjatlari bilan yashash joyidagi bandlik markaziga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+502,6,13,Belgilangan shartlarga javob beradigan talabalarga stipendiya yoki ijtimoiy yordam berilishi mumkin. Shartlarni o'quv muassasasidan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+503,9,19,Yo'qolgan ERI kalitini zudlik bilan bekor qildirish va yangisini rasmiylashtirish uchun tegishli ro'yxatga olish markaziga murojaat qilinadi.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+504,5,11,Ayrim toifadagi oilalar uchun bog'cha to'lovi bo'yicha imtiyozlar ko'zda tutilishi mumkin. Aniq holatni ta'lim bo'limi yoki bog'chadan aniqlang.,active,2026-08-04 00:00:00,2026-08-04 00:00:00
+505,4,8,Jismoniy shaxslarning odatdagi daromadlariga solinadigan daromad solig'i stavkasi 12 foizni tashkil etadi. Ayrim daromad turlari yoki qonunchilikda belgilangan maxsus holatlar bundan farq qilishi mumkin.,active,2026-08-11 00:00:00,2026-08-11 00:00:00

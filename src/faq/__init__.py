@@ -1,0 +1,1 @@
+"""Curated Uzbek FAQ retrieval."""

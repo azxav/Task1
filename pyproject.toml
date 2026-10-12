@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "uzbek-semantic-faq"
+version = "0.1.0"
+description = "Uzbek FAQ retrieval using BGE-M3, Qdrant, PostgreSQL, FastAPI and Telegram"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn>=0.34,<1", "httpx>=0.28,<1",
+  "psycopg[binary]>=3.2,<4", "qdrant-client>=1.14,<2",
+  "sentence-transformers>=4,<6", "transformers>=4.51,<5",
+  "torch>=2.6,<3", "openpyxl>=3.1,<4", "numpy>=2,<3",
+  "python-telegram-bot>=22,<23",
+  "python-dotenv>=1,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[project.scripts]
+faq = "faq.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/faq"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["integration: requires PostgreSQL and Qdrant"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 110
