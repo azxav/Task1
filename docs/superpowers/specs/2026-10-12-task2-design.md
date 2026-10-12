@@ -22,7 +22,7 @@ Text PDF pages use direct extraction with coordinates. Scanned pages use local O
 
 Generate candidate source passages for organizations, people, document identifiers, and deadlines. Give decision models an obligation passage, relevant document metadata, surrounding context, and candidate spans. Include a `none/unknown` option. Support multiple executors rather than forcing one selection. Retain the complete source instruction as task text.
 
-Tev1 chooses/classifies source candidates; ordinary Qwen uses text-only structured output referencing source candidates. Code validates references, copies source wording, and assembles the result. Candidate omissions and relation errors are measured separately. Model confidence is not presented as a probability of correctness; review thresholds require development-set evidence.
+Tev1 is the primary production decision engine, per the user's additional instruction. Build a high-quality decision stack for the supplied document structures: classify obligations, select source spans, link fields using relevant context, and validate assembled results. Compare Tev1-0.8B and Tev1-4B before selecting the production size. Ordinary Qwen is a comparison baseline, not an automatic production fallback. Code validates references, copies source wording, and assembles the result. Candidate omissions and relation errors are measured separately. Model confidence is not presented as a probability of correctness; review thresholds require development-set evidence.
 
 ## Model comparison
 
