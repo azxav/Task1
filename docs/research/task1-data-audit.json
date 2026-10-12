@@ -1,0 +1,215 @@
+{
+  "questions": {
+    "count": 3048,
+    "characters": [
+      {
+        "char": "'",
+        "code": "U+0027",
+        "name": "APOSTROPHE",
+        "count": 3859,
+        "rows": 2171,
+        "samples": [
+          {
+            "id": "3",
+            "context": "h qanaqa tartibda bo'ladi?"
+          },
+          {
+            "id": "10",
+            "context": " hujjatlar haqida ma'lumot bering"
+          },
+          {
+            "id": "11",
+            "context": "a olish hujjatlar bo'yicha ma'lumot kerak"
+          }
+        ]
+      },
+      {
+        "char": "—",
+        "code": "U+2014",
+        "name": "EM DASH",
+        "count": 6,
+        "rows": 6,
+        "samples": [
+          {
+            "id": "799",
+            "context": "qanday olish mumkin — naqd yoki kartaga?"
+          },
+          {
+            "id": "800",
+            "context": "qanaqa olish mumkin — naqd yoki kartaga?"
+          },
+          {
+            "id": "801",
+            "context": "Pensiyani olish — naqd yoki kartaga qanda"
+          }
+        ]
+      }
+    ],
+    "scripts": {
+      "latin": 3048
+    },
+    "non_latin_samples": [],
+    "formatting": {
+      "leading_trailing": 0,
+      "repeated_whitespace": 0,
+      "casefold_changes": 3039,
+      "nfc_changes": 0,
+      "nfkc_changes": 0,
+      "rows_with_digits": 6,
+      "max_length": 101
+    },
+    "apostrophe_contexts": {
+      "between_letters": 3841,
+      "after_o_g": 6,
+      "other": 12
+    },
+    "apostrophe_context_examples": {
+      "between_letters": [
+        {
+          "id": "3",
+          "text": "Pasportni (ID-karta) almashtirish qanaqa tartibda bo'ladi?"
+        },
+        {
+          "id": "10",
+          "text": "ID-karta olish hujjatlar haqida ma'lumot bering"
+        },
+        {
+          "id": "11",
+          "text": "ID-karta olish hujjatlar bo'yicha ma'lumot kerak"
+        }
+      ],
+      "after_o_g": [
+        {
+          "id": "2419",
+          "text": "Bank kartasidagi mablag' harakati (vipiska) qanday olinadi?"
+        },
+        {
+          "id": "2420",
+          "text": "Bank kartasidagi mablag' harakati (vipiska) qanday olsa bo'ladi?"
+        },
+        {
+          "id": "2421",
+          "text": "Bank kartasidagi mablag' harakati (vipiska)ni qanday olaman?"
+        }
+      ],
+      "other": [
+        {
+          "id": "2863",
+          "text": "Bir nechta bog'liq hujjatni bitta 'hayotiy vaziyat' sifatida olish qanday?"
+        },
+        {
+          "id": "2863",
+          "text": "Bir nechta bog'liq hujjatni bitta 'hayotiy vaziyat' sifatida olish qanday?"
+        },
+        {
+          "id": "2864",
+          "text": "Bir nechta bog'liq hujjatni bitta 'hayotiy vaziyat' sifatida olish qanaqa?"
+        }
+      ]
+    },
+    "cross_answer_collisions": [],
+    "duplicate_groups": []
+  },
+  "answers": {
+    "count": 505,
+    "characters": [
+      {
+        "char": "'",
+        "code": "U+0027",
+        "name": "APOSTROPHE",
+        "count": 1001,
+        "rows": 423,
+        "samples": [
+          {
+            "id": "1",
+            "context": " rasmiylashtirish bo'limiga topshiriladi. Bel"
+          },
+          {
+            "id": "2",
+            "context": "riza, davlat boji to'langanligi haqidagi kvit"
+          },
+          {
+            "id": "3",
+            "context": "Hujjatlar to'liq qabul qilingandan so"
+          }
+        ]
+      },
+      {
+        "char": "—",
+        "code": "U+2014",
+        "name": "EM DASH",
+        "count": 20,
+        "rows": 13,
+        "samples": [
+          {
+            "id": "2",
+            "context": "chi marta olinganda — tug'ilganlik guvohnomas"
+          },
+          {
+            "id": "5",
+            "context": "acha bo'lgan bolaga — 2 yil, 1 yoshdan 16 yos"
+          },
+          {
+            "id": "7",
+            "context": "tiladi. Davlat boji — BHMning 20%i (2025-yil "
+          }
+        ]
+      }
+    ],
+    "scripts": {
+      "latin": 504,
+      "mixed": 1
+    },
+    "non_latin_samples": [
+      {
+        "id": "499",
+        "text": "Yangi egа ta'minlovchi tashkilotlarga murojaat qilib, hisoblarni o'z nomiga qayta rasmiylashtiradi."
+      }
+    ],
+    "formatting": {
+      "leading_trailing": 0,
+      "repeated_whitespace": 0,
+      "casefold_changes": 502,
+      "nfc_changes": 0,
+      "nfkc_changes": 0,
+      "rows_with_digits": 50,
+      "max_length": 452
+    },
+    "apostrophe_contexts": {
+      "between_letters": 960,
+      "other": 41
+    },
+    "apostrophe_context_examples": {
+      "between_letters": [
+        {
+          "id": "1",
+          "text": "Ariza my.gov.uz portali orqali yoki Davlat xizmatlari markazi (DXM) hamda IIV migratsiya va fuqarolikni rasmiylashtirish bo'limiga topshiriladi. Belgilangan sanada tashrif buyurib, surat va biometrik ma'lumotlar topshiriladi. Yangi ID-karta hujjatlar to'liq qabul qilingach 1 ish kuni ichida beriladi. Davlat boji BHMning ~89%i (2025-yil holatida ~366 680 so'm); onlayn ariza berishda chegirma bo'lishi mumkin. Onlayn to'lovda kvitansiya majburiy emas."
+        },
+        {
+          "id": "1",
+          "text": "Ariza my.gov.uz portali orqali yoki Davlat xizmatlari markazi (DXM) hamda IIV migratsiya va fuqarolikni rasmiylashtirish bo'limiga topshiriladi. Belgilangan sanada tashrif buyurib, surat va biometrik ma'lumotlar topshiriladi. Yangi ID-karta hujjatlar to'liq qabul qilingach 1 ish kuni ichida beriladi. Davlat boji BHMning ~89%i (2025-yil holatida ~366 680 so'm); onlayn ariza berishda chegirma bo'lishi mumkin. Onlayn to'lovda kvitansiya majburiy emas."
+        },
+        {
+          "id": "1",
+          "text": "Ariza my.gov.uz portali orqali yoki Davlat xizmatlari markazi (DXM) hamda IIV migratsiya va fuqarolikni rasmiylashtirish bo'limiga topshiriladi. Belgilangan sanada tashrif buyurib, surat va biometrik ma'lumotlar topshiriladi. Yangi ID-karta hujjatlar to'liq qabul qilingach 1 ish kuni ichida beriladi. Davlat boji BHMning ~89%i (2025-yil holatida ~366 680 so'm); onlayn ariza berishda chegirma bo'lishi mumkin. Onlayn to'lovda kvitansiya majburiy emas."
+        }
+      ],
+      "other": [
+        {
+          "id": "20",
+          "text": "my.gov.uz portalidan 'Sudlanmaganlik haqida ma'lumotnoma' xizmati tanlanadi va so'rov yuboriladi. Ma'lumotnoma QR-kod bilan tasdiqlangan holda, odatda bir necha soat ichida elektron (PDF) shaklda taqdim etiladi."
+        },
+        {
+          "id": "20",
+          "text": "my.gov.uz portalidan 'Sudlanmaganlik haqida ma'lumotnoma' xizmati tanlanadi va so'rov yuboriladi. Ma'lumotnoma QR-kod bilan tasdiqlangan holda, odatda bir necha soat ichida elektron (PDF) shaklda taqdim etiladi."
+        },
+        {
+          "id": "26",
+          "text": "Moddiy yordam va nafaqalar 'Ijtimoiy himoya yagona reyestri' asosida tayinlanadi. Murojaat mahalla va tegishli ijtimoiy himoya organlari hamda my.gov.uz orqali amalga oshiriladi."
+        }
+      ]
+    },
+    "cross_answer_collisions": [],
+    "duplicate_groups": []
+  }
+}

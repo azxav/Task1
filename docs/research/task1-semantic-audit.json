@@ -1,0 +1,531 @@
+{
+  "extra_variants": {
+    "27": [
+      {
+        "id": "157",
+        "answer_id": "27",
+        "question": "Poliklinikaga yoki shifokorga qanday ro'yxatdan o'tiladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "158",
+        "answer_id": "27",
+        "question": "Poliklinikaga yoki shifokorga qanaqa ro'yxatdan o'tiladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "159",
+        "answer_id": "27",
+        "question": "Poliklinikaga yoki shifokorga ro'yxatdan o'tiladi qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "160",
+        "answer_id": "27",
+        "question": "Poliklinikaga yoki shifokorga ro'yxatdan o'tiladi haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "161",
+        "answer_id": "27",
+        "question": "Poliklinikaga yoki shifokorga ro'yxatdan o'tiladi bo'yicha ma'lumot kerak",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "162",
+        "answer_id": "27",
+        "question": "Menga poliklinikaga yoki shifokorga ro'yxatdan o'tiladi haqida ayting",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "409",
+        "answer_id": "27",
+        "question": "Poliklinikaga biriktirilgan shifokorni qanday o'zgartirish mumkin?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "410",
+        "answer_id": "27",
+        "question": "Poliklinikaga biriktirilgan shifokorni qanaqa o'zgartirish mumkin?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "411",
+        "answer_id": "27",
+        "question": "Poliklinikaga biriktirilgan shifokorni o'zgartirish qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "412",
+        "answer_id": "27",
+        "question": "Poliklinikaga biriktirilgan shifokorni o'zgartirish haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "413",
+        "answer_id": "27",
+        "question": "Poliklinikaga biriktirilgan shifokorni o'zgartirish bo'yicha ma'lumot kerak",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "414",
+        "answer_id": "27",
+        "question": "Menga poliklinikaga biriktirilgan shifokorni o'zgartirish haqida ayting",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "56": [
+      {
+        "id": "331",
+        "answer_id": "56",
+        "question": "Yakka tartibdagi tadbirkor (YaTT) soliqlarni qanday to'laydi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "332",
+        "answer_id": "56",
+        "question": "Yakka tartibdagi tadbirkor (YaTT) soliqlarni qanaqa to'laydi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "333",
+        "answer_id": "56",
+        "question": "Yakka tartibdagi tadbirkor (YaTT) soliqlarni to'laydi qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "334",
+        "answer_id": "56",
+        "question": "Yakka tartibdagi tadbirkor (YaTT) soliqlarni to'laydi haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "335",
+        "answer_id": "56",
+        "question": "Yakka tartibdagi tadbirkor (YaTT) soliqlarni to'laydi bo'yicha ma'lumot kerak",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "336",
+        "answer_id": "56",
+        "question": "Menga yakka tartibdagi tadbirkor (yatt) soliqlarni to'laydi haqida ayting",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "3031",
+        "answer_id": "56",
+        "question": "Soliqni qanday to'lash mumkin?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3032",
+        "answer_id": "56",
+        "question": "Soliq to'lovini qanday amalga oshirish mumkin?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3033",
+        "answer_id": "56",
+        "question": "Soliqni qayerdan to'lash mumkin?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3034",
+        "answer_id": "56",
+        "question": "Soliqni qanday to'lash kerak?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3035",
+        "answer_id": "56",
+        "question": "Soliq to'lovi qanday amalga oshiriladi?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3036",
+        "answer_id": "56",
+        "question": "Soliqni onlayn qanday to'lash mumkin?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      }
+    ],
+    "505": [
+      {
+        "id": "3037",
+        "answer_id": "505",
+        "question": "Jismoniy shaxs daromad solig'i qancha?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3038",
+        "answer_id": "505",
+        "question": "Daromad solig'i necha foiz?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3039",
+        "answer_id": "505",
+        "question": "Jismoniy shaxs daromadidan qancha soliq olinadi?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3040",
+        "answer_id": "505",
+        "question": "Daromad solig'i stavkasi qancha?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3041",
+        "answer_id": "505",
+        "question": "Ish haqidan daromad solig'i necha foiz?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3042",
+        "answer_id": "505",
+        "question": "Jismoniy shaxs uchun daromad solig'i stavkasi qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3043",
+        "answer_id": "505",
+        "question": "Daromadimdan necha foiz soliq to'layman?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3044",
+        "answer_id": "505",
+        "question": "Maoshimdan qancha soliq ushlanadi?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3045",
+        "answer_id": "505",
+        "question": "Oylik maoshdan necha foiz soliq olinadi?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3046",
+        "answer_id": "505",
+        "question": "Ish haqimdan qancha daromad solig'i ushlanadi?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3047",
+        "answer_id": "505",
+        "question": "Daromadimga qancha soliq solinadi?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      },
+      {
+        "id": "3048",
+        "answer_id": "505",
+        "question": "Oyligimdan qancha daromad solig'i to'layman?",
+        "is_active": "true",
+        "created_at": "2026-08-11 00:00:00",
+        "updated_at": "2026-08-11 00:00:00"
+      }
+    ]
+  },
+  "categories": {
+    "1": 125,
+    "3": 31,
+    "5": 55,
+    "6": 45,
+    "9": 64,
+    "2": 53,
+    "4": 47,
+    "8": 44,
+    "7": 41
+  },
+  "topics": {
+    "1": 34,
+    "2": 45,
+    "3": 30,
+    "4": 16,
+    "7": 31,
+    "11": 29,
+    "12": 21,
+    "13": 24,
+    "19": 64,
+    "5": 26,
+    "6": 27,
+    "8": 24,
+    "9": 23,
+    "17": 15,
+    "14": 17,
+    "15": 21,
+    "18": 8,
+    "10": 26,
+    "16": 24
+  },
+  "numeric_questions": [
+    {
+      "id": "205",
+      "answer_id": "35",
+      "question": "16 yoshga to'lganda pasport (ID-karta) olish uchun nima kerak?",
+      "is_active": "true",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "206",
+      "answer_id": "35",
+      "question": "16 yoshga to'lganda pasport (ID-karta) olish uchun qanday hujjatlar kerak?",
+      "is_active": "true",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "207",
+      "answer_id": "35",
+      "question": "16 yoshga to'lganda pasport (ID-karta) olish uchun nimalar kerak?",
+      "is_active": "true",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "208",
+      "answer_id": "35",
+      "question": "16 yoshga to'lganda pasport (ID-karta) olishga nimalar talab qilinadi?",
+      "is_active": "true",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "209",
+      "answer_id": "35",
+      "question": "16 yoshga to'lganda pasport (ID-karta) olish qanday?",
+      "is_active": "true",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "210",
+      "answer_id": "35",
+      "question": "16 yoshga to'lganda pasport (ID-karta) olish haqida ma'lumot bering",
+      "is_active": "true",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    }
+  ],
+  "similar_answers": [
+    {
+      "ratio": 0.9569,
+      "a": "380",
+      "b": "494",
+      "texts": [
+        "Voyaga yetmaganlar uchun karta qonuniy vakil (ota-ona) ishtirokida, belgilangan yosh va shartlar asosida bankda ochiladi.",
+        "Voyaga yetmaganlar uchun karta qonuniy vakil ishtirokida, belgilangan yosh va shartlar asosida bankda ochiladi."
+      ],
+      "questions": [
+        "Voyaga yetmagan bolaning bank kartasi (yoshlar kartasi) qanday ochiladi?",
+        "Voyaga yetmagan bola nomiga bank kartasi qanday ochiladi?"
+      ]
+    },
+    {
+      "ratio": 0.8824,
+      "a": "67",
+      "b": "135",
+      "texts": [
+        "Bolalik nafaqalari 'Ijtimoiy himoya yagona reyestri' asosida tayinlanadi. Ariza mahalla va ijtimoiy himoya organlari hamda my.gov.uz orqali beriladi.",
+        "Nafaqa va moddiy yordam 'Ijtimoiy himoya yagona reyestri' asosida tayinlanadi; murojaat mahalla va ijtimoiy himoya organlari hamda my.gov.uz orqali beriladi."
+      ],
+      "questions": [
+        "Bolalarga oid nafaqalar qanday tayinlanadi?",
+        "Ko'p bolali yoki kam ta'minlangan oilalar uchun qanday yordam bor?"
+      ]
+    }
+  ],
+  "similar_questions_cross_answer": [
+    {
+      "jaccard": 0.8727,
+      "question_ids": [
+        "128",
+        "866"
+      ],
+      "answer_ids": [
+        "22",
+        "144"
+      ],
+      "texts": [
+        "O'qish yoki ish joyidan ma'lumotnomani qanday olsa bo'ladi?",
+        "O'qish joyidan ma'lumotnomani qanday olsa bo'ladi?"
+      ]
+    },
+    {
+      "jaccard": 0.8679,
+      "question_ids": [
+        "127",
+        "865"
+      ],
+      "answer_ids": [
+        "22",
+        "144"
+      ],
+      "texts": [
+        "O'qish yoki ish joyidan ma'lumotnomani qanday olish mumkin?",
+        "O'qish joyidan ma'lumotnomani qanday olish mumkin?"
+      ]
+    },
+    {
+      "jaccard": 0.8679,
+      "question_ids": [
+        "130",
+        "868"
+      ],
+      "answer_ids": [
+        "22",
+        "144"
+      ],
+      "texts": [
+        "O'qish yoki ish joyidan ma'lumotnomani qanaqa olish mumkin?",
+        "O'qish joyidan ma'lumotnomani qanaqa olish mumkin?"
+      ]
+    },
+    {
+      "jaccard": 0.8679,
+      "question_ids": [
+        "132",
+        "870"
+      ],
+      "answer_ids": [
+        "22",
+        "144"
+      ],
+      "texts": [
+        "O'qish yoki ish joyidan ma'lumotnomani olish haqida ma'lumot bering",
+        "O'qish joyidan ma'lumotnomani olish haqida ma'lumot bering"
+      ]
+    },
+    {
+      "jaccard": 0.86,
+      "question_ids": [
+        "129",
+        "867"
+      ],
+      "answer_ids": [
+        "22",
+        "144"
+      ],
+      "texts": [
+        "O'qish yoki ish joyidan ma'lumotnomanini qayerdan olaman?",
+        "O'qish joyidan ma'lumotnomanini qayerdan olaman?"
+      ]
+    },
+    {
+      "jaccard": 0.8478,
+      "question_ids": [
+        "131",
+        "869"
+      ],
+      "answer_ids": [
+        "22",
+        "144"
+      ],
+      "texts": [
+        "O'qish yoki ish joyidan ma'lumotnomani olish qanday?",
+        "O'qish joyidan ma'lumotnomani olish qanday?"
+      ]
+    },
+    {
+      "jaccard": 0.8429,
+      "question_ids": [
+        "1090",
+        "1678"
+      ],
+      "answer_ids": [
+        "181",
+        "279"
+      ],
+      "texts": [
+        "Davlat xizmatlari haqidagi to'liq ma'lumotni topaman bo'yicha ma'lumot kerak",
+        "Davlat xizmatlari haqidagi barcha ma'lumotni topaman bo'yicha ma'lumot kerak"
+      ]
+    },
+    {
+      "jaccard": 0.8214,
+      "question_ids": [
+        "1092",
+        "1680"
+      ],
+      "answer_ids": [
+        "181",
+        "279"
+      ],
+      "texts": [
+        "Iltimos, ayting: davlat xizmatlari haqidagi to'liq ma'lumotni qayerdan topaman?",
+        "Iltimos, ayting: davlat xizmatlari haqidagi barcha ma'lumotni qayerdan topaman?"
+      ]
+    }
+  ],
+  "similar_question_pair_count_over_082": 8
+}

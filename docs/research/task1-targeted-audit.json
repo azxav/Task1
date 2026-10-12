@@ -1,0 +1,402 @@
+{
+  "sha256": {
+    "questions.csv": "9539ba7c9d64b5f7e9a8ab9d1646431d6ee25a19ecb8768bbf51a7bec2e37e7f",
+    "answers.csv": "72f65dad6b083d8eab55117ad69941dafc7fcb473a365f63392d8e394f851759"
+  },
+  "selected_answers": [
+    {
+      "id": "22",
+      "category_id": "1",
+      "topic_id": "4",
+      "answer": "O'qish joyidan ma'lumotnoma va boshqa ko'plab ma'lumotnomalar my.gov.uz portali orqali bir necha daqiqada elektron shaklda olinadi.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "27",
+      "category_id": "6",
+      "topic_id": "12",
+      "answer": "my.gov.uz portali orqali poliklinikaga mustaqil ro'yxatdan o'tish, shuningdek poliklinika yoki biriktirilgan shifokorni o'zgartirish mumkin.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "56",
+      "category_id": "4",
+      "topic_id": "8",
+      "answer": "Soliq turi va stavkalari faoliyat turiga bog'liq. Hisobot topshirish va to'lovlar soliq.uz (my.soliq.uz) shaxsiy kabineti orqali amalga oshiriladi. Aniq stavkalarni Davlat soliq qo'mitasidan tekshiring.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "144",
+      "category_id": "6",
+      "topic_id": "13",
+      "answer": "O'qish joyidan ma'lumotnoma my.gov.uz portali orqali yoki o'quv muassasasidan elektron shaklda olinadi.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "181",
+      "category_id": "9",
+      "topic_id": "19",
+      "answer": "Barcha davlat xizmatlari, ularning shartlari, hujjatlar ro'yxati va bojlari my.gov.uz portalida keltirilgan. Qo'shimcha savollar bo'yicha 1148 raqamiga qo'ng'iroq qilish mumkin.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "279",
+      "category_id": "9",
+      "topic_id": "19",
+      "answer": "Xizmatlar, shartlar, hujjatlar va bojlar my.gov.uz portalida jamlangan; qo'shimcha savollar bo'yicha 1148 raqamiga qo'ng'iroq qilinadi.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "380",
+      "category_id": "9",
+      "topic_id": "19",
+      "answer": "Voyaga yetmaganlar uchun karta qonuniy vakil (ota-ona) ishtirokida, belgilangan yosh va shartlar asosida bankda ochiladi.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "494",
+      "category_id": "9",
+      "topic_id": "19",
+      "answer": "Voyaga yetmaganlar uchun karta qonuniy vakil ishtirokida, belgilangan yosh va shartlar asosida bankda ochiladi.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    },
+    {
+      "id": "499",
+      "category_id": "8",
+      "topic_id": "15",
+      "answer": "Yangi egа ta'minlovchi tashkilotlarga murojaat qilib, hisoblarni o'z nomiga qayta rasmiylashtiradi.",
+      "status": "active",
+      "created_at": "2026-08-04 00:00:00",
+      "updated_at": "2026-08-04 00:00:00"
+    }
+  ],
+  "question_patterns": {
+    "malformed_ma_lumotnomanini": 2,
+    "ma_lumot_bering": 415,
+    "ma_lumot_kerak": 349,
+    "qanaqa": 279,
+    "id_karta": 162,
+    "my_gov": 12,
+    "latin_x_vs_h": 420,
+    "negative_or_missing": 184,
+    "acronyms": 221
+  },
+  "samples": {
+    "malformed_ma_lumotnomanini": [
+      {
+        "id": "129",
+        "answer_id": "22",
+        "question": "O'qish yoki ish joyidan ma'lumotnomanini qayerdan olaman?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "867",
+        "answer_id": "144",
+        "question": "O'qish joyidan ma'lumotnomanini qayerdan olaman?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "ma_lumot_bering": [
+      {
+        "id": "10",
+        "answer_id": "2",
+        "question": "ID-karta olish hujjatlar haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "15",
+        "answer_id": "3",
+        "question": "ID-karta kunda tayyor haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "21",
+        "answer_id": "4",
+        "question": "ID-kartada xatolik chiqsa haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "27",
+        "answer_id": "5",
+        "question": "ID-karta muddatga haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "ma_lumot_kerak": [
+      {
+        "id": "11",
+        "answer_id": "2",
+        "question": "ID-karta olish hujjatlar bo'yicha ma'lumot kerak",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "16",
+        "answer_id": "3",
+        "question": "ID-karta kunda tayyor bo'yicha ma'lumot kerak",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "22",
+        "answer_id": "4",
+        "question": "ID-kartada xatolik chiqsa bo'yicha ma'lumot kerak",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "28",
+        "answer_id": "5",
+        "question": "ID-karta muddatga bo'yicha ma'lumot kerak",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "qanaqa": [
+      {
+        "id": "3",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish qanaqa tartibda bo'ladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "5",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish tartibi qanaqa?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "8",
+        "answer_id": "2",
+        "question": "ID-karta olish uchun qanaqa hujjatlar kerak?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "50",
+        "answer_id": "9",
+        "question": "Nikohdan oldin qanaqa tibbiy ko'riklar talab qilinadi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "id_karta": [
+      {
+        "id": "1",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish tartibi qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "2",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish qanday amalga oshiriladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "3",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish qanaqa tartibda bo'ladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "4",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish jarayoni qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "my_gov": [
+      {
+        "id": "433",
+        "answer_id": "72",
+        "question": "my.gov.uz portaliga qanday ro'yxatdan o'tiladi yoki kiriladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "434",
+        "answer_id": "72",
+        "question": "my.gov.uz portaliga qanaqa ro'yxatdan o'tiladi yoki kiriladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "435",
+        "answer_id": "72",
+        "question": "my.gov.uz portaliga ro'yxatdan o'tiladi yoki kiriladi qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "436",
+        "answer_id": "72",
+        "question": "my.gov.uz portaliga ro'yxatdan o'tiladi yoki kiriladi haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "latin_x_vs_h": [
+      {
+        "id": "7",
+        "answer_id": "2",
+        "question": "ID-karta olish uchun qanday hujjatlar kerak?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "8",
+        "answer_id": "2",
+        "question": "ID-karta olish uchun qanaqa hujjatlar kerak?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "9",
+        "answer_id": "2",
+        "question": "ID-karta olish hujjatlar qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "10",
+        "answer_id": "2",
+        "question": "ID-karta olish hujjatlar haqida ma'lumot bering",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "negative_or_missing": [
+      {
+        "id": "67",
+        "answer_id": "12",
+        "question": "Ajrashish (nikohni bekor qilish) qanday amalga oshiriladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "68",
+        "answer_id": "12",
+        "question": "Ajrashish (nikohni bekor qilish) qanday bajariladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "69",
+        "answer_id": "12",
+        "question": "Ajrashish (nikohni bekor qilish) tartibi qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "70",
+        "answer_id": "12",
+        "question": "Ajrashish (nikohni bekor qilish) qanday qilinadi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ],
+    "acronyms": [
+      {
+        "id": "1",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish tartibi qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "2",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish qanday amalga oshiriladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "3",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish qanaqa tartibda bo'ladi?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      },
+      {
+        "id": "4",
+        "answer_id": "1",
+        "question": "Pasportni (ID-karta) almashtirish jarayoni qanday?",
+        "is_active": "true",
+        "created_at": "2026-08-04 00:00:00",
+        "updated_at": "2026-08-04 00:00:00"
+      }
+    ]
+  },
+  "source_dates": {
+    "2026-08-04 00:00:00": 3030,
+    "2026-08-11 00:00:00": 18
+  },
+  "audit_environment": {
+    "python": "3.12.14",
+    "unicode_version": "15.0.0",
+    "answer_similarity": "SequenceMatcher >= 0.88",
+    "question_similarity": "character-trigram Jaccard >= 0.82"
+  }
+}
