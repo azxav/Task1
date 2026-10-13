@@ -24,7 +24,7 @@ Qdrant point ID equals question ID. Each point stores a 1,024-dimensional dense 
 
 ## Import and index publication
 
-Uzbek preparation and quality rules are refined by `2026-10-12-uzbek-normalization-design.md`, which takes precedence for text profiles, diagnostics, equivalence-group ambiguity, and evaluation splits. The default embedding profile preserves case; casefold is initially a comparison key and a separately measured experiment.
+Uzbek preparation and quality rules are refined by `uzbek-normalization-design.md`, which takes precedence for text profiles, diagnostics, equivalence-group ambiguity, and evaluation splits. The default embedding profile preserves case; casefold is initially a comparison key and a separately measured experiment.
 
 Accept the two supplied UTF-8 CSV files or one .xlsx workbook with questions and answers sheets. Check required columns, unique IDs, nonempty content, booleans, timestamps, answer status, and references before making changes. Errors include file/sheet and row information. Normalize whitespace, Unicode, and Uzbek apostrophe variants consistently for indexing and queries; retain original text for display. Do not transliterate or remove meaningful punctuation blindly.
 

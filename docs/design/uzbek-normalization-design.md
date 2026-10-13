@@ -2,7 +2,7 @@
 
 ## Goal and scope
 
-Make Task 1 robust to Uzbek keyboard and writing variation while retaining the distinctions that determine the correct FAQ answer. This refines the normalization, evaluation, and answer-ambiguity sections of `2026-10-12-task1-design.md`. It governs text preparation and quality experiments, not the rest of the implementation. Source-backed language/Unicode findings: `docs/research/uzbek-normalization-sources.md`. Measured corpus findings: `docs/research/task1-data-findings.md`.
+Make Task 1 robust to Uzbek keyboard and writing variation while retaining the distinctions that determine the correct FAQ answer. This refines the normalization, evaluation, and answer-ambiguity sections of `task1-design.md`. It governs text preparation and quality experiments, not the rest of the implementation. Source-backed language/Unicode findings: `docs/research/uzbek-normalization-sources.md`. Measured corpus findings: `docs/research/task1-data-findings.md`.
 
 Normalization addresses equivalent representations. Misspellings, missing apostrophes, morphology, synonyms, transliteration, answer coverage, and semantic equivalence require retrieval experiments or label review. They must not become silent global substitutions.
 
