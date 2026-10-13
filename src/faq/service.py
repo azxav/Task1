@@ -7,7 +7,14 @@ from uuid import uuid4
 from .embeddings import Encoder
 from .evaluation.text_profiles import prepare_profile
 from .index import VectorIndex
-from .search.answer_groups import EquivalenceRegistry, decide, group_answer_candidates
+from .rerank import PairTooLong, Reranker
+from .search.answer_groups import (
+    EquivalenceRegistry,
+    decide,
+    decide_reranked,
+    group_answer_candidates,
+    route,
+)
 from .storage import Storage
 from .text.normalization import TextValidationError
 
@@ -20,13 +27,17 @@ class ServiceUnavailable(RuntimeError):
 
 
 class SearchService:
-    def __init__(self, settings, *, storage=None, index=None, encoder=None, registry=None):
+    def __init__(self, settings, *, storage=None, index=None, encoder=None, registry=None, reranker=None):
         self.settings = settings
         self.storage = storage if storage is not None else Storage(settings.database_url)
         self.index = index if index is not None else VectorIndex(settings.qdrant_url)
         self.registry = registry if registry is not None else EquivalenceRegistry.load(settings.registry_path)
         self.encoder = encoder if encoder is not None else Encoder(settings)
+        if reranker is None and settings.rerank_enabled:
+            reranker = Reranker(settings)
+        self.reranker = reranker
         self.model_lock = threading.Lock()
+        self.rerank_lock = threading.Lock()
 
     def assert_ready(self):
         try:
@@ -57,6 +68,23 @@ class SearchService:
                 vector, expected_generation=meta["generation"], limit=self.settings.top_k
             )
 
+    def _decide(self, text, groups):
+        s = self.settings
+        dense = decide(groups, min_score=s.min_score, min_margin=s.min_margin)
+        if not s.rerank_enabled:
+            return dense
+        if route(groups, min_score=s.min_score, min_margin=s.min_margin, floor=s.rerank_floor) != "rerank":
+            return dense
+        top = groups[: s.rerank_groups]
+        texts = self.storage.group_texts([group.question_id for group in top])
+        try:
+            with self.rerank_lock:
+                scores = self.reranker.score(text, [texts[group.question_id] for group in top])
+        except PairTooLong:
+            logger.info("rerank_skipped_length")
+            return dense
+        return decide_reranked(top, scores, min_score=s.rerank_min_score, min_margin=s.rerank_min_margin)
+
     def search(self, question: str):
         if len(question) > 2000:
             raise TextValidationError("Question exceeds 2,000 characters")
@@ -70,11 +98,7 @@ class SearchService:
                 candidates = self.index.search(
                     vector, expected_generation=meta["generation"], limit=self.settings.top_k
                 )
-                decision = decide(
-                    group_answer_candidates(candidates, self.registry),
-                    min_score=self.settings.min_score,
-                    min_margin=self.settings.min_margin,
-                )
+                decision = self._decide(text, group_answer_candidates(candidates, self.registry))
                 result = {
                     **asdict(decision),
                     "answer": None,
@@ -86,10 +110,11 @@ class SearchService:
                     result["answer"] = self.storage.answer(decision.answer_id).answer
                     result["matched_question"] = self.storage.question(decision.question_id)
             logger.info(
-                "search request_id=%s status=%s reason=%s elapsed_ms=%.1f",
+                "search request_id=%s status=%s reason=%s stage=%s elapsed_ms=%.1f",
                 request_id,
                 decision.status,
                 decision.reason,
+                decision.stage,
                 1000 * (perf_counter() - started),
             )
             return result

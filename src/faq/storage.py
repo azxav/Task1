@@ -111,3 +111,18 @@ class Storage:
             if row is None:
                 raise RuntimeError("Matched question missing")
             return row["question"]
+
+    def group_texts(self, question_ids):
+        """Question text plus its answer per stored question, for second-stage reranking."""
+        with self.connection() as connection:
+            rows = connection.execute(
+                "SELECT q.id, q.question, a.answer, a.status FROM questions q "
+                "JOIN answers a ON a.id = q.answer_id WHERE q.id = ANY(%s)",
+                (list(question_ids),),
+            ).fetchall()
+        texts = {
+            row["id"]: row["question"] + "\n" + row["answer"] for row in rows if row["status"] == "active"
+        }
+        if any(ident not in texts for ident in question_ids):
+            raise RuntimeError("Rerank candidate missing or inactive")
+        return texts

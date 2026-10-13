@@ -30,6 +30,11 @@ def test_real_snapshot_and_index_publication():
     store.replace(dataset, metadata)
     assert store.counts() == {"questions": 3048, "answers": 505}
     assert store.answer(499).answer == dataset.answers[499].answer
+    first = dataset.indexed[0]
+    expected = first.question + "\n" + dataset.answers[first.answer_id].answer
+    assert store.group_texts([first.id]) == {first.id: expected}
+    with pytest.raises(RuntimeError, match="Rerank"):
+        store.group_texts([10**9])
     index.publish("faq_test_generation")
     assert index.generation() == "faq_test_generation"
     hits = index.search(vectors[0], expected_generation="faq_test_generation")
