@@ -23,7 +23,7 @@ from .metrics import apply_threshold, calibration_families, metrics, select_thre
 from .text_profiles import prepare_profile
 
 
-def rank_queries(query_vectors, document_vectors, questions, registry, *, limit=30):
+def rank_queries(query_vectors, document_vectors, questions, registry, *, limit=30, groups_limit=5):
     scores = query_vectors @ document_vectors.T
     output = []
     for row in scores:
@@ -37,6 +37,10 @@ def rank_queries(query_vectors, document_vectors, questions, registry, *, limit=
                 "ranked": [g.best_answer_id for g in groups],
                 "score": groups[0].best_score if groups else -1,
                 "margin": groups[0].best_score - groups[1].best_score if len(groups) > 1 else None,
+                "top_groups": [
+                    {"answer_id": g.best_answer_id, "question_id": g.question_id, "score": g.best_score}
+                    for g in groups[:groups_limit]
+                ],
             }
         )
     return output

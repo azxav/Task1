@@ -56,3 +56,19 @@ def test_calibration_does_not_choose_reject_everything():
     thresholds = select_thresholds(rows)
     assert thresholds["min_score"] <= 0.90
     assert thresholds["min_score"] > 0.40 or thresholds["min_margin"] > 0.05
+
+
+def test_rank_queries_keeps_top_groups_for_reranking():
+    from types import SimpleNamespace
+
+    import numpy as np
+
+    from faq.evaluation.runner import rank_queries
+    from faq.search.answer_groups import EquivalenceRegistry
+
+    questions = [SimpleNamespace(id=10, answer_id=1), SimpleNamespace(id=20, answer_id=2)]
+    documents = np.eye(2, dtype=np.float32)
+    query = np.array([[0.1, 0.9]], dtype=np.float32)
+    row = rank_queries(query, documents, questions, EquivalenceRegistry("v1", ()), limit=2, groups_limit=1)[0]
+    assert row["ranked"] == [2, 1]
+    assert row["top_groups"] == [{"answer_id": 2, "question_id": 20, "score": pytest.approx(0.9)}]
