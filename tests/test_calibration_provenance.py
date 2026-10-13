@@ -18,7 +18,7 @@ def test_local_defaults_use_the_ipv4_addresses_exposed_by_compose(monkeypatch):
 
 
 def calibrated():
-    settings = Settings.load()
+    settings = replace(Settings.load(), rerank_enabled=False)
     frozen = {
         "profile": settings.profile,
         "model_name": settings.model_name,
@@ -53,3 +53,47 @@ def test_changed_source_requires_recalibration_or_explicit_experiment():
     assert replace(settings, allow_uncalibrated=True).validate_calibration(meta) == "uncalibrated"
     settings, meta = calibrated()
     assert settings.validate_calibration(meta) == "calibrated"
+
+
+RERANK = {
+    "rerank_enabled": True,
+    "reranker_name": "BAAI/bge-reranker-v2-m3",
+    "reranker_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "rerank_groups": 5,
+    "rerank_floor": 0.7,
+    "rerank_min_score": 0.6,
+    "rerank_min_margin": 0.1,
+}
+
+
+def test_manifest_without_reranker_keys_keeps_dense_pipeline_calibrated():
+    settings, meta = calibrated()
+    assert "rerank_enabled" not in settings.calibration
+    assert settings.validate_calibration(meta) == "calibrated"
+    with pytest.raises(ValueError, match="rerank_enabled"):
+        replace(settings, rerank_enabled=True).validate_calibration(meta)
+
+
+@pytest.mark.parametrize(
+    "change",
+    [
+        {"reranker_revision": "different"},
+        {"rerank_floor": 0.65},
+        {"rerank_min_score": 0.7},
+        {"rerank_min_margin": 0.2},
+        {"rerank_groups": 3},
+    ],
+)
+def test_changed_reranker_cannot_reuse_calibrated_values(change):
+    settings, meta = calibrated()
+    settings = replace(settings, calibration={**settings.calibration, **RERANK}, **RERANK)
+    assert settings.validate_calibration(meta) == "calibrated"
+    with pytest.raises(ValueError, match="calibration"):
+        replace(settings, **change).validate_calibration(meta)
+
+
+def test_reranker_switch_can_be_overridden_by_environment(monkeypatch):
+    monkeypatch.setenv("FAQ_RERANK_ENABLED", "0")
+    assert Settings.load().rerank_enabled is False
+    monkeypatch.setenv("FAQ_RERANK_ENABLED", "1")
+    assert Settings.load().rerank_enabled is True
