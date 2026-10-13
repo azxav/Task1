@@ -10,11 +10,20 @@
     "questions.csv": "9539ba7c9d64b5f7e9a8ab9d1646431d6ee25a19ecb8768bbf51a7bec2e37e7f",
     "answers.csv": "72f65dad6b083d8eab55117ad69941dafc7fcb473a365f63392d8e394f851759"
   },
+  "corpus_digest": "763e36f3579a0b3f1d9dc142729844c6ae01c6178833e8f32ca4ba2fde905ba7",
   "cases_sha256": "4e3c6b0a0d76fa7a6c905648e49ff77ef0097c84664ff2ce4b4b4a9938adbd34",
+  "cases_hash_basis": "UTF-8 text with LF line endings",
   "selection_basis": "108 independent development families only (variants excluded); >=95% accepted precision and <=5% no-match false acceptance when feasible; maximize correct accepted, prefer conservative surface on ties. Fresh test uninspected before freezing.",
   "device": "cpu",
   "max_tokens": 512,
   "benchmark_version": "source_coverage_v2",
-  "corpus_digest": "763e36f3579a0b3f1d9dc142729844c6ae01c6178833e8f32ca4ba2fde905ba7",
-  "cases_hash_basis": "UTF-8 text with LF line endings"
+  "rerank_enabled": true,
+  "reranker_name": "BAAI/bge-reranker-v2-m3",
+  "reranker_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "rerank_groups": 5,
+  "rerank_floor": 0.62,
+  "rerank_min_score": 0.75,
+  "rerank_min_margin": 0.22,
+  "test_status": "reused",
+  "rerank_selection_basis": "Dense 0.76/0.04 frozen. Floor, reranker score and margin chosen on 108 development families only; adopt only if correct accepted rises with >=95% precision and <=5% false acceptance. Test split reused, not fresh."
 }

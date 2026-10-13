@@ -20,6 +20,7 @@ from ..search.answer_groups import EquivalenceRegistry, ScoredQuestion, group_an
 from ..storage import Storage
 from .labels import validate_cases
 from .metrics import apply_threshold, calibration_families, metrics, select_thresholds
+from .rerank_calibration import adopt, apply_rerank, needs_rerank, select_rerank
 from .text_profiles import prepare_profile
 
 
@@ -76,6 +77,98 @@ def _summary(rows):
     }
 
 
+def _rerank_stage(
+    settings, selected, rows, cases, frozen, *, encoder, document_vectors, questions, source, registry
+):
+    """Second stage for the selected profile; dense values in `frozen` are never changed here."""
+    from ..rerank import PairTooLong, Reranker
+
+    reranker = Reranker(settings)
+    texts = {q.id: q.question + "\n" + source.answers[q.answer_id].answer for q in questions}
+    dense = {"min_score": frozen["min_score"], "min_margin": frozen["min_margin"]}
+    reranked = skipped = 0
+    for row, case in zip(rows, cases, strict=True):
+        if not needs_rerank(row, **dense):
+            continue
+        query = prepare_profile(case["query"], selected)
+        try:
+            row["rerank_scores"] = reranker.score(
+                query, [texts[g["question_id"]] for g in row["top_groups"]], cache=True
+            )
+            reranked += 1
+        except PairTooLong:
+            row["rerank_scores"] = None
+            skipped += 1
+    development = calibration_families(rows)
+    choice = select_rerank(development, **dense)
+    dense_development = metrics(development)
+    adopted = adopt(dense_development, choice["calibration"])
+    values = {key: choice[key] for key in ("rerank_floor", "rerank_min_score", "rerank_min_margin")}
+    combined = [
+        apply_rerank(
+            row,
+            **dense,
+            floor=values["rerank_floor"],
+            r_score=values["rerank_min_score"],
+            r_margin=values["rerank_min_margin"],
+        )
+        for row in rows
+    ]
+    latencies = []
+    for row, case in [(r, c) for r, c in zip(rows, cases, strict=True) if r.get("rerank_scores")][:12]:
+        started = perf_counter()
+        query = prepare_profile(case["query"], selected)
+        ranked = rank_queries(
+            encoder.encode([query]),
+            document_vectors,
+            questions,
+            registry,
+            limit=settings.top_k,
+            groups_limit=settings.rerank_groups,
+        )[0]
+        reranker.score(query, [texts[g["question_id"]] for g in ranked["top_groups"]])
+        latencies.append(1000 * (perf_counter() - started))
+    try:
+        import psutil
+
+        rss = psutil.Process().memory_info().rss / 2**30
+    except ImportError:
+        rss = None
+    return {
+        "rows": combined,
+        "manifest": {
+            "rerank_enabled": adopted,
+            "reranker_name": settings.reranker_name,
+            "reranker_revision": settings.reranker_revision,
+            "rerank_groups": settings.rerank_groups,
+            **values,
+            "test_status": "reused",
+            "rerank_selection_basis": (
+                "Dense 0.76/0.04 frozen. Floor, reranker score and margin chosen on 108 development "
+                "families only; adopt only if correct accepted rises with >=95% precision and <=5% "
+                "false acceptance. Test split reused, not fresh."
+            ),
+        },
+        "report": {
+            "model": settings.reranker_name,
+            "revision": settings.reranker_revision,
+            "adopted": adopted,
+            "test_status": "reused, not fresh",
+            "selection": choice,
+            "dense_development": dense_development,
+            "reranked_rows": reranked,
+            "skipped_length": skipped,
+            "warm_rerank_path_ms": {
+                "samples": len(latencies),
+                "p50": float(np.percentile(latencies, 50)) if latencies else None,
+                "p95": float(np.percentile(latencies, 95)) if latencies else None,
+            },
+            "reranker_startup_seconds": reranker.startup_seconds,
+            "process_rss_gib": rss,
+        },
+    }
+
+
 def run_evaluation(settings):
     source = load_dataset("data/source")
     root, out = Path("evaluation/uzbek"), Path("evaluation/results")
@@ -95,7 +188,17 @@ def run_evaluation(settings):
         print(f"Evaluating calibration profile: {profile}", flush=True)
         indexed = encoder.encode([prepare_profile(q.question, profile) for q in questions], cache=True)
         queries = encoder.encode([prepare_profile(c["query"], profile) for c in cases], cache=True)
-        rows = _labeled(rank_queries(queries, indexed, questions, registry, limit=settings.top_k), cases)
+        rows = _labeled(
+            rank_queries(
+                queries,
+                indexed,
+                questions,
+                registry,
+                limit=settings.top_k,
+                groups_limit=settings.rerank_groups,
+            ),
+            cases,
+        )
         calibration = calibration_families(rows)
         thresholds = select_thresholds(calibration)
         transformed = [
@@ -133,6 +236,19 @@ def run_evaluation(settings):
     frozen["selection_basis"] = (
         "108 independent development families only (variants excluded); >=95% accepted precision and <=5% no-match false acceptance when feasible; maximize correct accepted, prefer conservative surface on ties. Fresh test uninspected before freezing."
     )
+    rerank = _rerank_stage(
+        settings,
+        selected,
+        profiles[selected]["rows"],
+        cases,
+        frozen,
+        encoder=encoder,
+        document_vectors=prepared_indexes[selected],
+        questions=questions,
+        source=source,
+        registry=registry,
+    )
+    frozen.update(rerank["manifest"])
     (root / "manifest.json").write_text(json.dumps(frozen, indent=2) + "\n", encoding="utf-8")
     report = {
         "selected": frozen,
@@ -157,6 +273,14 @@ def run_evaluation(settings):
         (out / f"{profile}-predictions.jsonl").write_text(
             "".join(json.dumps(r) + "\n" for r in rows), encoding="utf-8"
         )
+    (out / "rerank-predictions.jsonl").write_text(
+        "".join(json.dumps(r) + "\n" for r in rerank["rows"]), encoding="utf-8"
+    )
+    report["rerank"] = {
+        **rerank["report"],
+        "development": _summary([r for r in rerank["rows"] if r["split"] == "calibration"]),
+        "test": _summary([r for r in rerank["rows"] if r["split"] == "test"]),
+    }
     # Character lexical baseline: retrieval metrics only; no uncalibrated rejection claim.
     from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -264,6 +388,7 @@ def run_evaluation(settings):
         "profile": selected,
         "thresholds": {k: frozen[k] for k in ("min_score", "min_margin")},
         "test": report["profiles"][selected]["test"]["base_and_no_match"],
+        "rerank_adopted": report["rerank"]["adopted"],
         "report": str(out / "report.json"),
     }
 
@@ -316,6 +441,48 @@ def _write_report(report):
         (
             "A similarity score is not a probability. Closely related unsupported private lookups/actions can still retrieve a plausible FAQ; rejection rates must be read alongside answer coverage. "
             "No automatic typo correction, stemming or transliteration has been added. Numeric/negation token and cosine diagnostics appear in report.json; preservation does not prove semantic correctness. Answer-vector reranking was tested on development data and not selected; see answer-support-experiment.json. Any further tuning needs another fresh held-out set."
+        ),
+        "",
+    ]
+    rr = report["rerank"]
+
+    def line(name, m):
+        return (
+            f"| {name} | {percent(m['accepted_precision'])} | {percent(m['correct_answer_coverage'])} | "
+            f"{percent(m['false_acceptance'])} | {m['correct_accepted']} | {m['wrong_accepted']} |"
+        )
+
+    sel, warm = rr["selection"], rr["warm_rerank_path_ms"]
+    rss = "not measured" if rr["process_rss_gib"] is None else f"{rr['process_rss_gib']:.2f} GiB"
+    latency = "n/a" if warm["p50"] is None else f"p50 {warm['p50']:.1f} ms, p95 {warm['p95']:.1f} ms"
+    lines += [
+        "## Reranker stage",
+        "",
+        (
+            f"Model {rr['model']} (revision {rr['revision'][:12]}), local CPU. Uncertain dense matches "
+            f"(ambiguous, or dense score from the floor up to {selected['min_score']}) are reranked over the top "
+            f"{selected['rerank_groups']} answer groups. Chosen on development families only: floor "
+            f"**{sel['rerank_floor']}**, reranker score **{sel['rerank_min_score']}**, reranker margin "
+            f"**{sel['rerank_min_margin']}**. Adopted for runtime: **{'yes' if rr['adopted'] else 'no'}**."
+        ),
+        "",
+        (
+            "**The test split is reused, not fresh.** It was measured once before this change and motivated it. "
+            "No value was tuned on it, but it is not independent evidence; a fresh held-out set is still required."
+        ),
+        "",
+        "| Data | Accepted precision | Correct coverage | False acceptance | Correct | Wrong |",
+        "|---|---:|---:|---:|---:|---:|",
+        line("Development, dense only", rr["dense_development"]),
+        line("Development, dense + rerank", rr["development"]["base_and_no_match"]),
+        line("Test (reused), dense only", final),
+        line("Test (reused), dense + rerank", rr["test"]["base_and_no_match"]),
+        "",
+        (
+            f"Reranked cases: {rr['reranked_rows']} of {report['cases']}; skipped for length: "
+            f"{rr['skipped_length']}. Warm rerank path (query embedding, exact search, reranking): {latency} over "
+            f"{warm['samples']} samples. Reranker startup {rr['reranker_startup_seconds']:.1f} s. Evaluation "
+            f"process memory with both models loaded: {rss}. Three values on 108 development families can overfit."
         ),
         "",
     ]
