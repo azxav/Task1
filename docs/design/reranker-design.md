@@ -1,6 +1,6 @@
 # Reranker stage for uncertain matches
 
-Status: approved design, 2026-10-13. Not yet implemented.
+Status: implemented 2026-10-13; adopted: yes.
 
 ## Problem
 

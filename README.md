@@ -8,8 +8,8 @@ same meaning, or says honestly that it has none. Stack: **BGE-M3 → Qdrant → 
 
 ## Run locally
 
-Needs Python 3.12, [uv](https://docs.astral.sh/uv/) and Docker. The first run downloads ≈2.3 GB of
-model weights. CPU is enough.
+Needs Python 3.12, [uv](https://docs.astral.sh/uv/) and Docker. The first run downloads ≈4.5 GB of
+model weights (BGE-M3 + reranker). CPU is enough.
 
 ```powershell
 uv sync --frozen --extra dev
@@ -56,8 +56,21 @@ thresholds chosen beforehand on a separate development set:
 |---:|---:|---:|---:|
 | 94.4% | 47.2% | 5.6% (1/18) | 94.4% |
 
-The system rarely gives a wrong answer but refuses about half of answerable questions. Details,
-method and limits: [GUIDE §13–17](docs/GUIDE.md#13-how-quality-was-measured) and
+The dense stage alone rarely gives a wrong answer but refuses about half of answerable questions.
+
+**Reranker stage (enabled at runtime).** Uncertain dense matches go to a local cross-encoder,
+`BAAI/bge-reranker-v2-m3`. It accepts only on its own calibrated score and margin. Same 54 families:
+
+| Pipeline | Accepted precision | Correct answer coverage | False acceptance (must-refuse) |
+|---|---:|---:|---:|
+| Dense only | 94.4% | 47.2% | 5.6% (1/18) |
+| Dense + rerank | 92.9% | 72.2% | 5.6% (1/18) |
+
+The test split is reused, not fresh: it was measured once before the reranker and motivated it.
+Reranker values were chosen on development data only. On development data the reranker raised
+correct answers from 35 to 56 of 72 at 98.2% precision; on the reused test it gave 26 correct and
+2 wrong answers, so precision is below the 95% target. Reranked queries take about 1.1 s over HTTP
+on CPU. Details, method and limits: [GUIDE §13–17](docs/GUIDE.md#13-how-quality-was-measured) and
 [docs/evaluation/uzbek-normalization.md](docs/evaluation/uzbek-normalization.md).
 
 ## Tests
