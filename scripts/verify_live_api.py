@@ -18,16 +18,17 @@ cases = [
     json.loads(line)
     for line in Path("evaluation/uzbek/queries.jsonl").read_text(encoding="utf-8").splitlines()
 ]
+predictions_name = "rerank" if settings.rerank_enabled else settings.profile
 predictions = {
     r["case_id"]: r
     for r in (
         json.loads(line)
-        for line in Path(f"evaluation/results/{settings.profile}-predictions.jsonl")
+        for line in Path(f"evaluation/results/{predictions_name}-predictions.jsonl")
         .read_text(encoding="utf-8")
         .splitlines()
     )
 }
-checks, latencies = [], []
+checks, latencies, rerank_latencies = [], [], []
 with httpx.Client(base_url=settings.api_url, timeout=45) as client:
     assert client.get("/health").status_code == 200
     assert client.get("/ready").status_code == 200
@@ -36,7 +37,8 @@ with httpx.Client(base_url=settings.api_url, timeout=45) as client:
             continue
         started = perf_counter()
         response = client.post("/search", json={"question": case["query"]})
-        latencies.append(1000 * (perf_counter() - started))
+        elapsed = 1000 * (perf_counter() - started)
+        latencies.append(elapsed)
         assert response.status_code == 200, (case["case_id"], response.status_code)
         actual, frozen = response.json(), predictions[case["case_id"]]
         assert actual["answer_id"] == frozen["predicted"], (
@@ -46,6 +48,10 @@ with httpx.Client(base_url=settings.api_url, timeout=45) as client:
         )
         delta = abs(actual["score"] - frozen["score"])
         assert delta < 1e-5, (case["case_id"], delta)
+        assert actual["stage"] == frozen.get("stage", "dense"), (case["case_id"], actual["stage"])
+        if actual["stage"] == "rerank":
+            rerank_latencies.append(elapsed)
+            assert abs(actual["rerank_score"] - frozen["rerank_score"]) < 1e-4, case["case_id"]
         if actual["status"] == "matched":
             assert actual["answer"] == dataset.answers[actual["answer_id"]].answer
         else:
@@ -60,7 +66,7 @@ with httpx.Client(base_url=settings.api_url, timeout=45) as client:
     assert ordinary["answer_id"] == typography["answer_id"]
     assert abs(ordinary["score"] - typography["score"]) < 1e-7
 report = {
-    "scope": "Real FastAPI -> BGE-M3 -> Qdrant -> PostgreSQL, all 54 fresh base/no-match families",
+    "scope": "Real FastAPI -> BGE-M3 -> Qdrant -> PostgreSQL (+ reranker when enabled), all 54 test base/no-match families (reused, not fresh)",
     "checks": checks,
     "verbatim_answers": True,
     "validation_422": True,
@@ -71,6 +77,12 @@ report = {
         "samples": len(latencies),
         "p50": float(np.percentile(latencies, 50)),
         "p95": float(np.percentile(latencies, 95)),
+    },
+    "rerank_enabled": settings.rerank_enabled,
+    "rerank_http_ms": {
+        "samples": len(rerank_latencies),
+        "p50": float(np.percentile(rerank_latencies, 50)) if rerank_latencies else None,
+        "p95": float(np.percentile(rerank_latencies, 95)) if rerank_latencies else None,
     },
     "portability_note": "CPU-only locked wheel agrees with pre-switch torch 2.14.1 Windows CPU calibration to <1e-5 on every fresh base/no-match case; selection unchanged.",
 }

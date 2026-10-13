@@ -1,5 +1,5 @@
 {
-  "scope": "Real FastAPI -> BGE-M3 -> Qdrant -> PostgreSQL, all 54 fresh base/no-match families",
+  "scope": "Real FastAPI -> BGE-M3 -> Qdrant -> PostgreSQL (+ reranker when enabled), all 54 test base/no-match families (reused, not fresh)",
   "checks": [
     {
       "case_id": "t001",
@@ -286,8 +286,14 @@
   },
   "sequential_http_ms": {
     "samples": 54,
-    "p50": 338.84709991980344,
-    "p95": 457.1271950379014
+    "p50": 593.2550500147045,
+    "p95": 1258.0735200783238
+  },
+  "rerank_enabled": true,
+  "rerank_http_ms": {
+    "samples": 27,
+    "p50": 1082.7071000821888,
+    "p95": 1279.6914300415665
   },
   "portability_note": "CPU-only locked wheel agrees with pre-switch torch 2.14.1 Windows CPU calibration to <1e-5 on every fresh base/no-match case; selection unchanged."
 }
