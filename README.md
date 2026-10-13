@@ -69,7 +69,8 @@ The dense stage alone rarely gives a wrong answer but refuses about half of answ
 The test split is reused, not fresh: it was measured once before the reranker and motivated it.
 Reranker values were chosen on development data only. On development data the reranker raised
 correct answers from 35 to 56 of 72 at 98.2% precision; on the reused test it gave 26 correct and
-2 wrong answers, so precision is below the 95% target. Reranked queries take about 1.1 s over HTTP
+2 wrong answers, so precision is below the 95% target; false acceptance stays 5.6%, above
+the 5% target, as for dense only. Reranked queries take about 1.1 s over HTTP
 on CPU. Details, method and limits: [GUIDE §13–17](docs/GUIDE.md#13-how-quality-was-measured) and
 [docs/evaluation/uzbek-normalization.md](docs/evaluation/uzbek-normalization.md).
 

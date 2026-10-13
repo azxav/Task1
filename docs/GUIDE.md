@@ -416,8 +416,8 @@ cosine search, offline; it does not publish anything.
 
 **Extra checks:** character n-gram TF-IDF baseline (is the neural model better than string
 matching?), a "hold out one stored variant" test, number/negation diagnostics, latency, and
-offline-vs-real-Qdrant parity. `scripts/verify_live_api.py` sends all 54 fresh test families
-through the real HTTP API and confirms the same decisions.
+offline-vs-real-Qdrant parity. `scripts/verify_live_api.py` sends all 54 test families (reused, not
+fresh, since the reranker) through the real HTTP API and confirms the same decisions.
 
 **History, kept on purpose:** the first benchmark (`evaluation/results/v1/`) missed some valid
 alternative answers, so it under-scored the system. It was kept unchanged; its test questions moved
@@ -449,8 +449,9 @@ How to read this:
   string matching is a strong baseline here.
 - Variants: typographic and missing apostrophes keep about 76% top-1; Cyrillic 67%;
   **UPPER CASE drops top-1 to 28%** — a known weakness of the case-preserving profile.
-- Latency on CPU (dense only, before the reranker): model + vector search p50 188 ms / p95 212 ms;
-  full HTTP API p50 339 ms / p95 457 ms.
+- Latency on CPU, dense path: model + vector search p50 116 ms / p95 124 ms (latest `faq evaluate`;
+  an earlier run measured 188 / 212 ms on the same machine). Full HTTP API before the reranker
+  (earlier live run): p50 339 ms / p95 457 ms.
 
 **Reranker stage** (`bge-reranker-v2-m3`, floor 0.62, reranker score 0.75, margin 0.22; adopted).
 **The test split is reused, not fresh**: it was measured once before this change and motivated it.
@@ -463,13 +464,17 @@ No value was tuned on it, but it is not independent evidence.
 | Test (reused), dense only | 94.4% | 47.2% | 5.6% | 17 | 1 |
 | Test (reused), dense + rerank | 92.9% | 72.2% | 5.6% | 26 | 2 |
 
-- Coverage rises by about 25 points on both splits. On the reused test, precision falls to 92.9%
-  (2 wrong of 28 answers), below the 95% target. Three values chosen on 108 development families
-  can overfit.
-- 388 of 625 cases went to the reranker; none was skipped for length.
+- Correct coverage rises by 29.2 points on development (48.6% → 77.8%) and 25.0 points on the
+  reused test (47.2% → 72.2%). On the reused test, precision falls to 92.9% (2 wrong of 28
+  answers) and false acceptance stays 5.6% (1 of 18); both miss the 95% / 5% targets. Three values
+  chosen on 108 development families can overfit.
+- 388 of 625 cases were scored by the reranker for calibration (dense score ≥ 0.50). At the chosen
+  floor 0.62, 290 of 625 cases take the rerank path (100 of them in the test split). None was
+  skipped for length.
 - Latency on CPU: reranked queries over real HTTP p50 1,083 ms / p95 1,280 ms (27 samples); all 54
   live queries p50 593 ms / p95 1,258 ms. Offline warm rerank path p50 999 ms / p95 2,363 ms.
-- Memory: about 3.3 GB RAM with both models loaded (evaluation process 3.31 GiB; API 3.26 GB).
+- Memory: about 3.3 GB RAM with both models loaded (evaluation process 3.31 GiB from
+  `report.json`; API process 3.26 GiB Windows working set, measured by hand after the live check).
 - The live check (`verify_live_api.py`) gave the same decision for all 54 test families, including
   the 27 reranked ones. The recorded reranker start time (251 s) includes the first download.
 
@@ -575,7 +580,8 @@ Next steps (each needs a new fresh test set after the change):
 - **Why not lower-case everything?** Measured: lower-casing answered more but with lower precision
   (90.5% vs 94.4%). The case-preserving profile won on development data.
 - **How do you know the API behaves like the offline evaluation?** `verify_live_api.py` sent all
-  54 fresh test families through the real HTTP stack: same decisions, score differences < 1e-6.
+  54 test families through the real HTTP stack (with the reranker on): same decisions, dense score
+  differences < 1e-6, reranker score differences < 1e-4.
 - **What if the data changes?** Re-import; the calibration guard detects the new data and asks for
   a new evaluation before publishing with old thresholds.
 - **Biggest weakness?** Upper-case input, and evidence: the reranker raised coverage from 47% to
